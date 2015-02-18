@@ -1,0 +1,8 @@
+c:\users\cristian\documents\visual studio 2013\Projects\wfFacturacion\wfFacturacion\bin\Debug\wfFacturacion.dll
+c:\users\cristian\documents\visual studio 2013\Projects\wfFacturacion\wfFacturacion\bin\Debug\wfFacturacion.pdb
+c:\users\cristian\documents\visual studio 2013\Projects\wfFacturacion\wfFacturacion\obj\Debug\wfFacturacion.Properties.Resources.resources
+c:\users\cristian\documents\visual studio 2013\Projects\wfFacturacion\wfFacturacion\obj\Debug\wfFacturacion.csproj.GenerateResource.Cache
+c:\users\cristian\documents\visual studio 2013\Projects\wfFacturacion\wfFacturacion\obj\Debug\wfFacturacion.dll
+c:\users\cristian\documents\visual studio 2013\Projects\wfFacturacion\wfFacturacion\obj\Debug\wfFacturacion.pdb
+c:\users\cristian\documents\visual studio 2013\Projects\wfFacturacion\wfFacturacion\obj\Debug\wfFacturacion.csprojResolveAssemblyReference.cache
+c:\users\cristian\documents\visual studio 2013\Projects\wfFacturacion\wfFacturacion\obj\Debug\wfFacturacion.wfFactura.resources
