@@ -32,11 +32,11 @@ namespace dll_medico.Presentacion
                                 {"alias_usuario","Alias","true"},
                                 {"contrasena_usuario","contra","false"},
                                 {"nombre_usuario","Nombre","true"},
-                                {"primer_apellido","Primerapellido","false"},
-                                {"segundo_apellido", "SegundoApellido","false"},
+                                {"primer_apellido","Apellido","false"},
+                                {"segundo_apellido", "Segundo_Apellido","false"},
                                 {"direccion","Direccion","false"},
-                                {"fecha_de_creacion","Fechacreacion","true"},
-                                {"fecha_de_modificacion","Fechamodificacion","false"},
+                                {"fecha_de_creacion","Fecha_Creacion","true"},
+                                {"fecha_de_modificacion","Fecha_Modificacion","false"},
                                 {"estado","Estado","true"},
                                 };
             dgvusuario.AlDatosEntrada.Add(Scadena);
@@ -47,8 +47,8 @@ namespace dll_medico.Presentacion
             String[,] ScadenaMedico = {
                                     {"id_medico","Codigo","true"},
                                     {"nombre_medico","Nombre","true"},
-                                    {"priimer_apellido_medico","PrimerApellido","true"},
-                                    {"medico_segundo_apellido","SegundoApellido","true"},
+                                    {"priimer_apellido_medico","Apellido","true"},
+                                    {"medico_segundo_apellido","Segundo_Apellido","true"},
                                     {"fecha_ingreso","Fecha","true"},
                                     {"estado","Estado","false"},
                                 };
@@ -60,7 +60,7 @@ namespace dll_medico.Presentacion
 
             String[,] ScadenaPacientes = {
                                              {"id_pacientes","Codigo","true"},
-                                             {"nombre_paciente","nombre","true"},
+                                             {"nombre_paciente","Nombre","true"},
                                              {"primer_apellido","PrimerApellido","true"},
                                              {"segundo_apellido","SegundoApellido","false"},
                                              {"direccion_paciente","Direccion","false"},
