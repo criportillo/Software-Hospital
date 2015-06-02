@@ -54,62 +54,74 @@
             // lblnumero_factura
             // 
             this.lblnumero_factura.AutoSize = true;
-            this.lblnumero_factura.Location = new System.Drawing.Point(54, 81);
+            this.lblnumero_factura.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblnumero_factura.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lblnumero_factura.Location = new System.Drawing.Point(74, 97);
             this.lblnumero_factura.Name = "lblnumero_factura";
-            this.lblnumero_factura.Size = new System.Drawing.Size(98, 13);
+            this.lblnumero_factura.Size = new System.Drawing.Size(136, 17);
             this.lblnumero_factura.TabIndex = 0;
             this.lblnumero_factura.Text = "Numero de factura:";
             // 
             // lblnit_cliente
             // 
             this.lblnit_cliente.AutoSize = true;
-            this.lblnit_cliente.Location = new System.Drawing.Point(54, 142);
+            this.lblnit_cliente.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblnit_cliente.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lblnit_cliente.Location = new System.Drawing.Point(74, 158);
             this.lblnit_cliente.Name = "lblnit_cliente";
-            this.lblnit_cliente.Size = new System.Drawing.Size(57, 13);
+            this.lblnit_cliente.Size = new System.Drawing.Size(77, 17);
             this.lblnit_cliente.TabIndex = 1;
             this.lblnit_cliente.Text = "Nit cliente:";
             // 
             // lblid_usuario
             // 
             this.lblid_usuario.AutoSize = true;
-            this.lblid_usuario.Location = new System.Drawing.Point(292, 81);
+            this.lblid_usuario.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblid_usuario.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lblid_usuario.Location = new System.Drawing.Point(327, 97);
             this.lblid_usuario.Name = "lblid_usuario";
-            this.lblid_usuario.Size = new System.Drawing.Size(58, 13);
+            this.lblid_usuario.Size = new System.Drawing.Size(75, 17);
             this.lblid_usuario.TabIndex = 2;
             this.lblid_usuario.Text = "ID usuario:";
             // 
             // lblid_pacientes
             // 
             this.lblid_pacientes.AutoSize = true;
-            this.lblid_pacientes.Location = new System.Drawing.Point(475, 81);
+            this.lblid_pacientes.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblid_pacientes.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lblid_pacientes.Location = new System.Drawing.Point(510, 97);
             this.lblid_pacientes.Name = "lblid_pacientes";
-            this.lblid_pacientes.Size = new System.Drawing.Size(67, 13);
+            this.lblid_pacientes.Size = new System.Drawing.Size(88, 17);
             this.lblid_pacientes.TabIndex = 3;
             this.lblid_pacientes.Text = "ID pacientes";
             // 
             // lblfecha
             // 
             this.lblfecha.AutoSize = true;
-            this.lblfecha.Location = new System.Drawing.Point(292, 143);
+            this.lblfecha.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblfecha.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lblfecha.Location = new System.Drawing.Point(327, 159);
             this.lblfecha.Name = "lblfecha";
-            this.lblfecha.Size = new System.Drawing.Size(40, 13);
+            this.lblfecha.Size = new System.Drawing.Size(51, 17);
             this.lblfecha.TabIndex = 4;
             this.lblfecha.Text = "Fecha:";
             // 
             // navegador1
             // 
             this.navegador1.alDatosEntrada = ((System.Collections.ArrayList)(resources.GetObject("navegador1.alDatosEntrada")));
+            this.navegador1.BackColor = System.Drawing.Color.Transparent;
             this.navegador1.bEjecutarEvento = true;
             this.navegador1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.navegador1.Location = new System.Drawing.Point(57, 3);
+            this.navegador1.Location = new System.Drawing.Point(79, 12);
             this.navegador1.Name = "navegador1";
             this.navegador1.Size = new System.Drawing.Size(598, 54);
             this.navegador1.sNombreTabla = "factura";
             this.navegador1.TabIndex = 5;
+            this.navegador1.btnNuevo_AfterClick += new System.EventHandler(this.navegador1_btnNuevo_AfterClick);
             // 
             // txtnumero_factura
             // 
-            this.txtnumero_factura.Location = new System.Drawing.Point(158, 74);
+            this.txtnumero_factura.Location = new System.Drawing.Point(206, 97);
             this.txtnumero_factura.Name = "txtnumero_factura";
             this.txtnumero_factura.Size = new System.Drawing.Size(100, 20);
             this.txtnumero_factura.TabIndex = 6;
@@ -117,7 +129,7 @@
             // 
             // txtid_usuario
             // 
-            this.txtid_usuario.Location = new System.Drawing.Point(357, 73);
+            this.txtid_usuario.Location = new System.Drawing.Point(404, 96);
             this.txtid_usuario.Name = "txtid_usuario";
             this.txtid_usuario.Size = new System.Drawing.Size(100, 20);
             this.txtid_usuario.TabIndex = 7;
@@ -125,7 +137,7 @@
             // 
             // txtid_pacientes
             // 
-            this.txtid_pacientes.Location = new System.Drawing.Point(558, 72);
+            this.txtid_pacientes.Location = new System.Drawing.Point(604, 96);
             this.txtid_pacientes.Name = "txtid_pacientes";
             this.txtid_pacientes.Size = new System.Drawing.Size(93, 20);
             this.txtid_pacientes.TabIndex = 8;
@@ -133,7 +145,7 @@
             // 
             // txtnit_cliente
             // 
-            this.txtnit_cliente.Location = new System.Drawing.Point(158, 136);
+            this.txtnit_cliente.Location = new System.Drawing.Point(206, 152);
             this.txtnit_cliente.Name = "txtnit_cliente";
             this.txtnit_cliente.Size = new System.Drawing.Size(100, 20);
             this.txtnit_cliente.TabIndex = 9;
@@ -142,7 +154,7 @@
             // dtpfecha
             // 
             this.dtpfecha.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpfecha.Location = new System.Drawing.Point(357, 136);
+            this.dtpfecha.Location = new System.Drawing.Point(404, 156);
             this.dtpfecha.Name = "dtpfecha";
             this.dtpfecha.Size = new System.Drawing.Size(100, 20);
             this.dtpfecha.TabIndex = 10;
@@ -150,7 +162,7 @@
             // 
             // txtfecha
             // 
-            this.txtfecha.Location = new System.Drawing.Point(478, 136);
+            this.txtfecha.Location = new System.Drawing.Point(525, 156);
             this.txtfecha.Name = "txtfecha";
             this.txtfecha.Size = new System.Drawing.Size(100, 20);
             this.txtfecha.TabIndex = 11;
@@ -162,7 +174,7 @@
             // 
             this.tbcfactura.Controls.Add(this.tbpusuario);
             this.tbcfactura.Controls.Add(this.tbppaciente);
-            this.tbcfactura.Location = new System.Drawing.Point(53, 212);
+            this.tbcfactura.Location = new System.Drawing.Point(57, 223);
             this.tbcfactura.Name = "tbcfactura";
             this.tbcfactura.SelectedIndex = 0;
             this.tbcfactura.Size = new System.Drawing.Size(642, 272);
@@ -182,9 +194,11 @@
             // cuDataGridD1
             // 
             this.cuDataGridD1.AlDatosEntrada = ((System.Collections.ArrayList)(resources.GetObject("cuDataGridD1.AlDatosEntrada")));
+            this.cuDataGridD1.alObtenerCampos = ((System.Collections.ArrayList)(resources.GetObject("cuDataGridD1.alObtenerCampos")));
+            this.cuDataGridD1.AutoSize = true;
+            this.cuDataGridD1.ICampo = 0;
             this.cuDataGridD1.Location = new System.Drawing.Point(3, 6);
             this.cuDataGridD1.Name = "cuDataGridD1";
-            this.cuDataGridD1.SCampo = "Codigo";
             this.cuDataGridD1.Size = new System.Drawing.Size(628, 237);
             this.cuDataGridD1.STabla = "usuario";
             this.cuDataGridD1.TabIndex = 13;
@@ -205,9 +219,11 @@
             // cuDataGridD2
             // 
             this.cuDataGridD2.AlDatosEntrada = ((System.Collections.ArrayList)(resources.GetObject("cuDataGridD2.AlDatosEntrada")));
+            this.cuDataGridD2.alObtenerCampos = ((System.Collections.ArrayList)(resources.GetObject("cuDataGridD2.alObtenerCampos")));
+            this.cuDataGridD2.AutoSize = true;
+            this.cuDataGridD2.ICampo = 0;
             this.cuDataGridD2.Location = new System.Drawing.Point(3, 6);
             this.cuDataGridD2.Name = "cuDataGridD2";
-            this.cuDataGridD2.SCampo = "Codigo";
             this.cuDataGridD2.Size = new System.Drawing.Size(625, 237);
             this.cuDataGridD2.STabla = "paciente";
             this.cuDataGridD2.TabIndex = 0;
@@ -217,6 +233,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.HotTrack;
             this.ClientSize = new System.Drawing.Size(742, 496);
             this.Controls.Add(this.tbcfactura);
             this.Controls.Add(this.txtfecha);
@@ -231,7 +248,8 @@
             this.Controls.Add(this.lblid_usuario);
             this.Controls.Add(this.lblnit_cliente);
             this.Controls.Add(this.lblnumero_factura);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "wfFactura";
@@ -240,7 +258,9 @@
             this.Load += new System.EventHandler(this.wfFactura_Load);
             this.tbcfactura.ResumeLayout(false);
             this.tbpusuario.ResumeLayout(false);
+            this.tbpusuario.PerformLayout();
             this.tbppaciente.ResumeLayout(false);
+            this.tbppaciente.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 

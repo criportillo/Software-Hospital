@@ -17,19 +17,6 @@ namespace dll_factura.Presentacion
         public wfDetalleFactura()
         {
             InitializeComponent();
-        }
-
-        private void wfDetalleFactura_Load(object sender, EventArgs e)
-        {
-            alDatosEntrada.Add(txtid_detfact );
-            alDatosEntrada.Add(txtdescripcion);
-            alDatosEntrada.Add(txtnumero_factura);
-           
-            navegador1.alDatosEntrada = alDatosEntrada;
-            navegador1.vIniciarNavegador();
-
-            
-
             ///////////////////////////////////////
             //Datos Grid factura
             String[,] Scaden ={
@@ -43,6 +30,20 @@ namespace dll_factura.Presentacion
             cuDataGridD2.AlDatosEntrada.Add(Scaden);
             cuDataGridD2.vinicializar();
             ///////////////////////////////////
+        }
+
+        private void wfDetalleFactura_Load(object sender, EventArgs e)
+        {
+            alDatosEntrada.Add(txtid_detfact );
+            alDatosEntrada.Add(txtdescripcion);
+            alDatosEntrada.Add(txtnumero_factura);
+           
+            navegador1.alDatosEntrada = alDatosEntrada;
+            navegador1.vIniciarNavegador();
+
+            
+
+           
 
         }
 
@@ -59,6 +60,18 @@ namespace dll_factura.Presentacion
         private void txtnumero_factura_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void navegador1_btnPrimero_AfterClick(object sender, EventArgs e)
+        {
+            txtdescripcion.Enabled = false;
+            txtnumero_factura.Enabled = false;
+        }
+
+        private void navegador1_btnNuevo_AfterClick(object sender, EventArgs e)
+        {
+            txtid_detfact.Enabled = false;
+            txtnumero_factura.Enabled = false;
         }
     }
 }

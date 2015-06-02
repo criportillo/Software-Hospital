@@ -17,24 +17,6 @@ namespace dll_factura.Presentacion
         public wfFactura()
         {
             InitializeComponent();
-        }
-
-        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
-        {
-            txtfecha.Text = dtpfecha.Text;
-        }
-
-        private void wfFactura_Load(object sender, EventArgs e)
-        {
-            alDatosEntrada.Add(txtnumero_factura);
-            alDatosEntrada.Add(txtnit_cliente);
-            alDatosEntrada.Add(txtid_usuario);
-            alDatosEntrada.Add(txtid_pacientes);
-            alDatosEntrada.Add(txtfecha);
-            navegador1.alDatosEntrada = alDatosEntrada;
-            navegador1.vIniciarNavegador();
-            
-            
             ///////////////////////////////////////
             //Datos Grid Paciente
             String[,] Scaden ={
@@ -73,6 +55,26 @@ namespace dll_factura.Presentacion
             ///////////////////////////////////
         }
 
+        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
+            txtfecha.Text = dtpfecha.Text;
+        }
+
+        private void wfFactura_Load(object sender, EventArgs e)
+        {
+            txtfecha.Text = DateTime.Now.ToString("MM/dd/yyyy");
+            alDatosEntrada.Add(txtnumero_factura);
+            alDatosEntrada.Add(txtnit_cliente);
+            alDatosEntrada.Add(txtid_usuario);
+            alDatosEntrada.Add(txtid_pacientes);
+            alDatosEntrada.Add(txtfecha);
+            navegador1.alDatosEntrada = alDatosEntrada;
+            navegador1.vIniciarNavegador();
+            
+            
+            
+        }
+
         private void cuDataGridD1_Load(object sender, EventArgs e)
         {
 
@@ -91,6 +93,13 @@ namespace dll_factura.Presentacion
         private void cuDataGridD2_sdgv_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             txtid_pacientes.Text = cuDataGridD2.SObtenerDato;
+        }
+
+        private void navegador1_btnNuevo_AfterClick(object sender, EventArgs e)
+        {
+            txtnumero_factura.Enabled = false;
+            txtid_usuario.Enabled = false;
+            txtid_pacientes.Enabled = false;
         }
     }
 }
