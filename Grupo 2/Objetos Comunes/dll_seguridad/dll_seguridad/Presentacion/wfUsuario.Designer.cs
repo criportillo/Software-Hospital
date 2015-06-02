@@ -307,6 +307,7 @@
             this.txtEncriptar.Size = new System.Drawing.Size(46, 20);
             this.txtEncriptar.TabIndex = 29;
             this.txtEncriptar.Tag = "contrasena_usuario";
+            this.txtEncriptar.Visible = false;
             this.txtEncriptar.TextChanged += new System.EventHandler(this.txtEncriptar_TextChanged);
             // 
             // dgvperfil
