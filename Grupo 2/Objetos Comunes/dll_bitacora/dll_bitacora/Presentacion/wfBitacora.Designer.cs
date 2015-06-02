@@ -59,6 +59,7 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "wfBitacora";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Bitacora";
             this.Load += new System.EventHandler(this.wfBitacora_Load);
             this.ResumeLayout(false);

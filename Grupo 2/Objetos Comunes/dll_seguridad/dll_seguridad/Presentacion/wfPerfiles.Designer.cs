@@ -194,6 +194,7 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "wfPerfiles";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Crear Perfil";
             this.Load += new System.EventHandler(this.wfPerfil_Load);
             this.ResumeLayout(false);

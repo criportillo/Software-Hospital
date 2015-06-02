@@ -46,6 +46,7 @@ namespace dll_seguridad.Presentacion
             navegador1.alDatosEntrada = alDatosEntrada;
             navegador1.vIniciarNavegador();
             txtContraseña.Enabled = false;
+            txtEncriptar.Enabled = false;
             /////////////////////////////////////////////////////////
 
             //datos del grid Perfil
@@ -113,6 +114,7 @@ namespace dll_seguridad.Presentacion
             
             txtfechcrea.Enabled = txtfechmod.Enabled = false;
             txtContraseña.Enabled = false;
+            txtEncriptar.Enabled = true;
         }
 
         private void navegador1_btnModificar_AfterClick(object sender, EventArgs e)

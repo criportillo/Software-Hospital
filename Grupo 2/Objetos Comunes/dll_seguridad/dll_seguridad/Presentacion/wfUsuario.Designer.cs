@@ -138,11 +138,12 @@
             // 
             // txtContraseña
             // 
-            this.txtContraseña.Location = new System.Drawing.Point(509, 206);
+            this.txtContraseña.Location = new System.Drawing.Point(687, 206);
             this.txtContraseña.Name = "txtContraseña";
-            this.txtContraseña.Size = new System.Drawing.Size(157, 20);
+            this.txtContraseña.Size = new System.Drawing.Size(36, 20);
             this.txtContraseña.TabIndex = 8;
             this.txtContraseña.Tag = "";
+            this.txtContraseña.Visible = false;
             this.txtContraseña.TextChanged += new System.EventHandler(this.txtContraseña_TextChanged);
             // 
             // txtEstado
@@ -289,7 +290,7 @@
             this.txtfechcrea.Location = new System.Drawing.Point(168, 244);
             this.txtfechcrea.Name = "txtfechcrea";
             this.txtfechcrea.Size = new System.Drawing.Size(153, 20);
-            this.txtfechcrea.TabIndex = 10;
+            this.txtfechcrea.TabIndex = 9;
             this.txtfechcrea.Tag = "fecha_de_creacion";
             // 
             // txtfechmod
@@ -297,17 +298,18 @@
             this.txtfechmod.Location = new System.Drawing.Point(509, 245);
             this.txtfechmod.Name = "txtfechmod";
             this.txtfechmod.Size = new System.Drawing.Size(157, 20);
-            this.txtfechmod.TabIndex = 11;
+            this.txtfechmod.TabIndex = 10;
             this.txtfechmod.Tag = "fecha_de_modificacion";
             // 
             // txtEncriptar
             // 
-            this.txtEncriptar.Location = new System.Drawing.Point(687, 206);
+            this.txtEncriptar.Enabled = false;
+            this.txtEncriptar.Location = new System.Drawing.Point(509, 207);
             this.txtEncriptar.Name = "txtEncriptar";
-            this.txtEncriptar.Size = new System.Drawing.Size(46, 20);
-            this.txtEncriptar.TabIndex = 29;
+            this.txtEncriptar.Size = new System.Drawing.Size(157, 20);
+            this.txtEncriptar.TabIndex = 8;
             this.txtEncriptar.Tag = "contrasena_usuario";
-            this.txtEncriptar.Visible = false;
+            this.txtEncriptar.UseSystemPasswordChar = true;
             this.txtEncriptar.TextChanged += new System.EventHandler(this.txtEncriptar_TextChanged);
             // 
             // dgvperfil
