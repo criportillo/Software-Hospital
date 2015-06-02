@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(wfInicioSesion));
             this.txtUsuario = new System.Windows.Forms.TextBox();
             this.txtContraseña = new System.Windows.Forms.TextBox();
             this.lblusuario = new System.Windows.Forms.Label();
@@ -45,14 +46,14 @@
             // 
             // txtUsuario
             // 
-            this.txtUsuario.Location = new System.Drawing.Point(152, 121);
+            this.txtUsuario.Location = new System.Drawing.Point(206, 124);
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.Size = new System.Drawing.Size(139, 20);
             this.txtUsuario.TabIndex = 0;
             // 
             // txtContraseña
             // 
-            this.txtContraseña.Location = new System.Drawing.Point(152, 154);
+            this.txtContraseña.Location = new System.Drawing.Point(206, 157);
             this.txtContraseña.Name = "txtContraseña";
             this.txtContraseña.Size = new System.Drawing.Size(139, 20);
             this.txtContraseña.TabIndex = 1;
@@ -61,24 +62,29 @@
             // lblusuario
             // 
             this.lblusuario.AutoSize = true;
-            this.lblusuario.Location = new System.Drawing.Point(49, 128);
+            this.lblusuario.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblusuario.ForeColor = System.Drawing.Color.White;
+            this.lblusuario.Location = new System.Drawing.Point(87, 128);
             this.lblusuario.Name = "lblusuario";
-            this.lblusuario.Size = new System.Drawing.Size(43, 13);
+            this.lblusuario.Size = new System.Drawing.Size(47, 16);
             this.lblusuario.TabIndex = 2;
             this.lblusuario.Text = "Usuario";
             // 
             // lblcontraseña
             // 
             this.lblcontraseña.AutoSize = true;
-            this.lblcontraseña.Location = new System.Drawing.Point(49, 157);
+            this.lblcontraseña.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblcontraseña.ForeColor = System.Drawing.Color.White;
+            this.lblcontraseña.Location = new System.Drawing.Point(87, 157);
             this.lblcontraseña.Name = "lblcontraseña";
-            this.lblcontraseña.Size = new System.Drawing.Size(61, 13);
+            this.lblcontraseña.Size = new System.Drawing.Size(72, 16);
             this.lblcontraseña.TabIndex = 3;
             this.lblcontraseña.Text = "Contraseña";
             // 
             // btniniciarsesion
             // 
-            this.btniniciarsesion.Location = new System.Drawing.Point(28, 247);
+            this.btniniciarsesion.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btniniciarsesion.Location = new System.Drawing.Point(43, 246);
             this.btniniciarsesion.Name = "btniniciarsesion";
             this.btniniciarsesion.Size = new System.Drawing.Size(105, 23);
             this.btniniciarsesion.TabIndex = 4;
@@ -88,7 +94,8 @@
             // 
             // btnsalir
             // 
-            this.btnsalir.Location = new System.Drawing.Point(179, 247);
+            this.btnsalir.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnsalir.Location = new System.Drawing.Point(167, 246);
             this.btnsalir.Name = "btnsalir";
             this.btnsalir.Size = new System.Drawing.Size(112, 23);
             this.btnsalir.TabIndex = 5;
@@ -99,10 +106,11 @@
             // lblSistema
             // 
             this.lblSistema.AutoSize = true;
-            this.lblSistema.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSistema.Location = new System.Drawing.Point(22, 14);
+            this.lblSistema.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSistema.ForeColor = System.Drawing.Color.White;
+            this.lblSistema.Location = new System.Drawing.Point(52, 22);
             this.lblSistema.Name = "lblSistema";
-            this.lblSistema.Size = new System.Drawing.Size(137, 33);
+            this.lblSistema.Size = new System.Drawing.Size(132, 36);
             this.lblSistema.TabIndex = 7;
             this.lblSistema.Text = "Sistema ";
             this.lblSistema.Click += new System.EventHandler(this.lblUsuario_Click);
@@ -110,10 +118,11 @@
             // lblHospital
             // 
             this.lblHospital.AutoSize = true;
-            this.lblHospital.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHospital.Location = new System.Drawing.Point(93, 62);
+            this.lblHospital.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHospital.ForeColor = System.Drawing.Color.White;
+            this.lblHospital.Location = new System.Drawing.Point(123, 70);
             this.lblHospital.Name = "lblHospital";
-            this.lblHospital.Size = new System.Drawing.Size(170, 31);
+            this.lblHospital.Size = new System.Drawing.Size(182, 36);
             this.lblHospital.TabIndex = 8;
             this.lblHospital.Text = "Hospitalario";
             // 
@@ -129,8 +138,9 @@
             // 
             // cmbTasaCambio
             // 
+            this.cmbTasaCambio.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbTasaCambio.FormattingEnabled = true;
-            this.cmbTasaCambio.Location = new System.Drawing.Point(152, 189);
+            this.cmbTasaCambio.Location = new System.Drawing.Point(206, 192);
             this.cmbTasaCambio.Name = "cmbTasaCambio";
             this.cmbTasaCambio.Size = new System.Drawing.Size(139, 21);
             this.cmbTasaCambio.TabIndex = 9;
@@ -139,24 +149,28 @@
             // lblMoneda
             // 
             this.lblMoneda.AutoSize = true;
-            this.lblMoneda.Location = new System.Drawing.Point(49, 189);
+            this.lblMoneda.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMoneda.ForeColor = System.Drawing.Color.White;
+            this.lblMoneda.Location = new System.Drawing.Point(87, 189);
             this.lblMoneda.Name = "lblMoneda";
-            this.lblMoneda.Size = new System.Drawing.Size(46, 13);
+            this.lblMoneda.Size = new System.Drawing.Size(56, 16);
             this.lblMoneda.TabIndex = 10;
             this.lblMoneda.Text = "Moneda";
             // 
             // cuIdioma1
             // 
-            this.cuIdioma1.Location = new System.Drawing.Point(297, 241);
+            this.cuIdioma1.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cuIdioma1.Location = new System.Drawing.Point(285, 237);
             this.cuIdioma1.Name = "cuIdioma1";
-            this.cuIdioma1.Size = new System.Drawing.Size(146, 33);
+            this.cuIdioma1.Size = new System.Drawing.Size(166, 41);
             this.cuIdioma1.TabIndex = 11;
             // 
             // wfInicioSesion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(453, 309);
+            this.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.ClientSize = new System.Drawing.Size(456, 309);
             this.Controls.Add(this.cuIdioma1);
             this.Controls.Add(this.lblMoneda);
             this.Controls.Add(this.cmbTasaCambio);
@@ -170,6 +184,7 @@
             this.Controls.Add(this.txtContraseña);
             this.Controls.Add(this.txtUsuario);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "wfInicioSesion";

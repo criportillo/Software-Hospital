@@ -50,6 +50,7 @@
             // navegador1
             // 
             this.navegador1.alDatosEntrada = ((System.Collections.ArrayList)(resources.GetObject("navegador1.alDatosEntrada")));
+            this.navegador1.BackColor = System.Drawing.Color.Transparent;
             this.navegador1.bEjecutarEvento = true;
             this.navegador1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.navegador1.Location = new System.Drawing.Point(13, 13);
@@ -63,61 +64,73 @@
             // lblidtipoexamen
             // 
             this.lblidtipoexamen.AutoSize = true;
-            this.lblidtipoexamen.Location = new System.Drawing.Point(65, 112);
+            this.lblidtipoexamen.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblidtipoexamen.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lblidtipoexamen.Location = new System.Drawing.Point(46, 109);
             this.lblidtipoexamen.Name = "lblidtipoexamen";
-            this.lblidtipoexamen.Size = new System.Drawing.Size(81, 13);
+            this.lblidtipoexamen.Size = new System.Drawing.Size(105, 17);
             this.lblidtipoexamen.TabIndex = 1;
             this.lblidtipoexamen.Text = "Id Tipo Examen";
             // 
             // lblnombre
             // 
             this.lblnombre.AutoSize = true;
-            this.lblnombre.Location = new System.Drawing.Point(65, 155);
+            this.lblnombre.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblnombre.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lblnombre.Location = new System.Drawing.Point(46, 152);
             this.lblnombre.Name = "lblnombre";
-            this.lblnombre.Size = new System.Drawing.Size(44, 13);
+            this.lblnombre.Size = new System.Drawing.Size(61, 17);
             this.lblnombre.TabIndex = 2;
             this.lblnombre.Text = "Nombre";
             // 
             // lbldescripcion
             // 
             this.lbldescripcion.AutoSize = true;
-            this.lbldescripcion.Location = new System.Drawing.Point(65, 196);
+            this.lbldescripcion.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbldescripcion.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lbldescripcion.Location = new System.Drawing.Point(46, 193);
             this.lbldescripcion.Name = "lbldescripcion";
-            this.lbldescripcion.Size = new System.Drawing.Size(63, 13);
+            this.lbldescripcion.Size = new System.Drawing.Size(83, 17);
             this.lbldescripcion.TabIndex = 3;
             this.lbldescripcion.Text = "Descripcion";
             // 
             // lblfechacreacion
             // 
             this.lblfechacreacion.AutoSize = true;
-            this.lblfechacreacion.Location = new System.Drawing.Point(312, 148);
+            this.lblfechacreacion.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblfechacreacion.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lblfechacreacion.Location = new System.Drawing.Point(292, 148);
             this.lblfechacreacion.Name = "lblfechacreacion";
-            this.lblfechacreacion.Size = new System.Drawing.Size(82, 13);
+            this.lblfechacreacion.Size = new System.Drawing.Size(111, 17);
             this.lblfechacreacion.TabIndex = 4;
             this.lblfechacreacion.Text = "Fecha Creacion";
             // 
             // lblfechamodificacion
             // 
             this.lblfechamodificacion.AutoSize = true;
-            this.lblfechamodificacion.Location = new System.Drawing.Point(312, 192);
+            this.lblfechamodificacion.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblfechamodificacion.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lblfechamodificacion.Location = new System.Drawing.Point(292, 192);
             this.lblfechamodificacion.Name = "lblfechamodificacion";
-            this.lblfechamodificacion.Size = new System.Drawing.Size(100, 13);
+            this.lblfechamodificacion.Size = new System.Drawing.Size(135, 17);
             this.lblfechamodificacion.TabIndex = 5;
             this.lblfechamodificacion.Text = "Fecha Modificacion";
             // 
             // lblestado
             // 
             this.lblestado.AutoSize = true;
-            this.lblestado.Location = new System.Drawing.Point(312, 109);
+            this.lblestado.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblestado.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lblestado.Location = new System.Drawing.Point(292, 109);
             this.lblestado.Name = "lblestado";
-            this.lblestado.Size = new System.Drawing.Size(40, 13);
+            this.lblestado.Size = new System.Drawing.Size(52, 17);
             this.lblestado.TabIndex = 6;
             this.lblestado.Text = "Estado";
             // 
             // txtIdTipoExamen
             // 
             this.txtIdTipoExamen.Enabled = false;
-            this.txtIdTipoExamen.Location = new System.Drawing.Point(176, 105);
+            this.txtIdTipoExamen.Location = new System.Drawing.Point(157, 102);
             this.txtIdTipoExamen.Name = "txtIdTipoExamen";
             this.txtIdTipoExamen.Size = new System.Drawing.Size(35, 20);
             this.txtIdTipoExamen.TabIndex = 7;
@@ -125,7 +138,7 @@
             // 
             // txtNombre
             // 
-            this.txtNombre.Location = new System.Drawing.Point(176, 145);
+            this.txtNombre.Location = new System.Drawing.Point(157, 142);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(100, 20);
             this.txtNombre.TabIndex = 8;
@@ -133,7 +146,7 @@
             // 
             // txtDescripcion
             // 
-            this.txtDescripcion.Location = new System.Drawing.Point(176, 191);
+            this.txtDescripcion.Location = new System.Drawing.Point(157, 188);
             this.txtDescripcion.Name = "txtDescripcion";
             this.txtDescripcion.Size = new System.Drawing.Size(100, 20);
             this.txtDescripcion.TabIndex = 9;
@@ -141,7 +154,7 @@
             // 
             // txtFechaCreacion
             // 
-            this.txtFechaCreacion.Location = new System.Drawing.Point(577, 148);
+            this.txtFechaCreacion.Location = new System.Drawing.Point(564, 148);
             this.txtFechaCreacion.Name = "txtFechaCreacion";
             this.txtFechaCreacion.Size = new System.Drawing.Size(30, 20);
             this.txtFechaCreacion.TabIndex = 10;
@@ -151,7 +164,7 @@
             // 
             // txtFechaModificacion
             // 
-            this.txtFechaModificacion.Location = new System.Drawing.Point(580, 189);
+            this.txtFechaModificacion.Location = new System.Drawing.Point(567, 189);
             this.txtFechaModificacion.Name = "txtFechaModificacion";
             this.txtFechaModificacion.Size = new System.Drawing.Size(30, 20);
             this.txtFechaModificacion.TabIndex = 11;
@@ -161,7 +174,7 @@
             // 
             // txtEstado
             // 
-            this.txtEstado.Location = new System.Drawing.Point(576, 106);
+            this.txtEstado.Location = new System.Drawing.Point(563, 106);
             this.txtEstado.Name = "txtEstado";
             this.txtEstado.Size = new System.Drawing.Size(30, 20);
             this.txtEstado.TabIndex = 12;
@@ -206,6 +219,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.HotTrack;
             this.ClientSize = new System.Drawing.Size(621, 289);
             this.Controls.Add(this.cboEstado);
             this.Controls.Add(this.dtpFechaModificacion);
@@ -223,7 +237,11 @@
             this.Controls.Add(this.lblnombre);
             this.Controls.Add(this.lblidtipoexamen);
             this.Controls.Add(this.navegador1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "wfTipoExamen";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Tipo Examen";

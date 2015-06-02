@@ -54,6 +54,7 @@
             // navegador1
             // 
             this.navegador1.alDatosEntrada = ((System.Collections.ArrayList)(resources.GetObject("navegador1.alDatosEntrada")));
+            this.navegador1.BackColor = System.Drawing.Color.Transparent;
             this.navegador1.bEjecutarEvento = true;
             this.navegador1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.navegador1.Location = new System.Drawing.Point(12, 12);
@@ -66,7 +67,7 @@
             // txtIdDetalleExamen
             // 
             this.txtIdDetalleExamen.Enabled = false;
-            this.txtIdDetalleExamen.Location = new System.Drawing.Point(214, 90);
+            this.txtIdDetalleExamen.Location = new System.Drawing.Point(236, 91);
             this.txtIdDetalleExamen.Name = "txtIdDetalleExamen";
             this.txtIdDetalleExamen.Size = new System.Drawing.Size(31, 20);
             this.txtIdDetalleExamen.TabIndex = 1;
@@ -75,7 +76,7 @@
             // txtIdPacientes
             // 
             this.txtIdPacientes.Enabled = false;
-            this.txtIdPacientes.Location = new System.Drawing.Point(432, 90);
+            this.txtIdPacientes.Location = new System.Drawing.Point(454, 91);
             this.txtIdPacientes.Name = "txtIdPacientes";
             this.txtIdPacientes.Size = new System.Drawing.Size(31, 20);
             this.txtIdPacientes.TabIndex = 2;
@@ -84,7 +85,7 @@
             // txtIdTipoExamen
             // 
             this.txtIdTipoExamen.Enabled = false;
-            this.txtIdTipoExamen.Location = new System.Drawing.Point(214, 122);
+            this.txtIdTipoExamen.Location = new System.Drawing.Point(236, 123);
             this.txtIdTipoExamen.Name = "txtIdTipoExamen";
             this.txtIdTipoExamen.Size = new System.Drawing.Size(31, 20);
             this.txtIdTipoExamen.TabIndex = 3;
@@ -93,7 +94,7 @@
             // txtIdMedico
             // 
             this.txtIdMedico.Enabled = false;
-            this.txtIdMedico.Location = new System.Drawing.Point(432, 122);
+            this.txtIdMedico.Location = new System.Drawing.Point(454, 123);
             this.txtIdMedico.Name = "txtIdMedico";
             this.txtIdMedico.Size = new System.Drawing.Size(31, 20);
             this.txtIdMedico.TabIndex = 4;
@@ -102,36 +103,44 @@
             // lbldetalleexamen
             // 
             this.lbldetalleexamen.AutoSize = true;
-            this.lbldetalleexamen.Location = new System.Drawing.Point(111, 93);
+            this.lbldetalleexamen.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbldetalleexamen.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lbldetalleexamen.Location = new System.Drawing.Point(95, 92);
             this.lbldetalleexamen.Name = "lbldetalleexamen";
-            this.lbldetalleexamen.Size = new System.Drawing.Size(93, 13);
+            this.lbldetalleexamen.Size = new System.Drawing.Size(125, 17);
             this.lbldetalleexamen.TabIndex = 5;
             this.lbldetalleexamen.Text = "Id Detalle Examen";
             // 
             // lblidpacientes
             // 
             this.lblidpacientes.AutoSize = true;
-            this.lblidpacientes.Location = new System.Drawing.Point(344, 93);
+            this.lblidpacientes.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblidpacientes.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lblidpacientes.Location = new System.Drawing.Point(366, 94);
             this.lblidpacientes.Name = "lblidpacientes";
-            this.lblidpacientes.Size = new System.Drawing.Size(66, 13);
+            this.lblidpacientes.Size = new System.Drawing.Size(86, 17);
             this.lblidpacientes.TabIndex = 6;
             this.lblidpacientes.Text = "Id Pacientes";
             // 
             // lbltipoexamen
             // 
             this.lbltipoexamen.AutoSize = true;
-            this.lbltipoexamen.Location = new System.Drawing.Point(111, 125);
+            this.lbltipoexamen.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbltipoexamen.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lbltipoexamen.Location = new System.Drawing.Point(95, 124);
             this.lbltipoexamen.Name = "lbltipoexamen";
-            this.lbltipoexamen.Size = new System.Drawing.Size(81, 13);
+            this.lbltipoexamen.Size = new System.Drawing.Size(105, 17);
             this.lbltipoexamen.TabIndex = 7;
             this.lbltipoexamen.Text = "Id Tipo Examen";
             // 
             // lblidmedico
             // 
             this.lblidmedico.AutoSize = true;
-            this.lblidmedico.Location = new System.Drawing.Point(344, 122);
+            this.lblidmedico.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblidmedico.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lblidmedico.Location = new System.Drawing.Point(366, 123);
             this.lblidmedico.Name = "lblidmedico";
-            this.lblidmedico.Size = new System.Drawing.Size(53, 13);
+            this.lblidmedico.Size = new System.Drawing.Size(74, 17);
             this.lblidmedico.TabIndex = 8;
             this.lblidmedico.Text = "Id medico";
             // 
@@ -162,6 +171,7 @@
             this.cuDataGridD1.AlDatosEntrada = ((System.Collections.ArrayList)(resources.GetObject("cuDataGridD1.AlDatosEntrada")));
             this.cuDataGridD1.alObtenerCampos = ((System.Collections.ArrayList)(resources.GetObject("cuDataGridD1.alObtenerCampos")));
             this.cuDataGridD1.AutoSize = true;
+            this.cuDataGridD1.BackColor = System.Drawing.Color.DarkGray;
             this.cuDataGridD1.ICampo = 0;
             this.cuDataGridD1.Location = new System.Drawing.Point(-4, 0);
             this.cuDataGridD1.Name = "cuDataGridD1";
@@ -186,6 +196,7 @@
             this.cuDataGridD2.AlDatosEntrada = ((System.Collections.ArrayList)(resources.GetObject("cuDataGridD2.AlDatosEntrada")));
             this.cuDataGridD2.alObtenerCampos = ((System.Collections.ArrayList)(resources.GetObject("cuDataGridD2.alObtenerCampos")));
             this.cuDataGridD2.AutoSize = true;
+            this.cuDataGridD2.BackColor = System.Drawing.Color.DarkGray;
             this.cuDataGridD2.ICampo = 0;
             this.cuDataGridD2.Location = new System.Drawing.Point(-4, 0);
             this.cuDataGridD2.Name = "cuDataGridD2";
@@ -210,6 +221,7 @@
             this.cuDataGridD3.AlDatosEntrada = ((System.Collections.ArrayList)(resources.GetObject("cuDataGridD3.AlDatosEntrada")));
             this.cuDataGridD3.alObtenerCampos = ((System.Collections.ArrayList)(resources.GetObject("cuDataGridD3.alObtenerCampos")));
             this.cuDataGridD3.AutoSize = true;
+            this.cuDataGridD3.BackColor = System.Drawing.Color.DarkGray;
             this.cuDataGridD3.ICampo = 0;
             this.cuDataGridD3.Location = new System.Drawing.Point(-4, 0);
             this.cuDataGridD3.Name = "cuDataGridD3";
@@ -222,6 +234,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.HotTrack;
             this.ClientSize = new System.Drawing.Size(620, 359);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.lblidmedico);
@@ -233,7 +246,10 @@
             this.Controls.Add(this.txtIdPacientes);
             this.Controls.Add(this.txtIdDetalleExamen);
             this.Controls.Add(this.navegador1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "wfDetalleExamen";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Detalle Examen";

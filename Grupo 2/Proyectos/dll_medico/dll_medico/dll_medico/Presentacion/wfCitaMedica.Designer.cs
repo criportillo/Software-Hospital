@@ -62,6 +62,7 @@
             // navegador1
             // 
             this.navegador1.alDatosEntrada = ((System.Collections.ArrayList)(resources.GetObject("navegador1.alDatosEntrada")));
+            this.navegador1.BackColor = System.Drawing.Color.Transparent;
             this.navegador1.bEjecutarEvento = true;
             this.navegador1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.navegador1.Location = new System.Drawing.Point(24, 12);
@@ -79,9 +80,11 @@
             // lblcitamedica
             // 
             this.lblcitamedica.AutoSize = true;
+            this.lblcitamedica.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblcitamedica.ForeColor = System.Drawing.Color.White;
             this.lblcitamedica.Location = new System.Drawing.Point(70, 98);
             this.lblcitamedica.Name = "lblcitamedica";
-            this.lblcitamedica.Size = new System.Drawing.Size(75, 13);
+            this.lblcitamedica.Size = new System.Drawing.Size(104, 17);
             this.lblcitamedica.TabIndex = 1;
             this.lblcitamedica.Text = "Id Cita Medica";
             this.lblcitamedica.Click += new System.EventHandler(this.lblcitamedico_Click);
@@ -89,54 +92,66 @@
             // lblusuario
             // 
             this.lblusuario.AutoSize = true;
-            this.lblusuario.Location = new System.Drawing.Point(239, 98);
+            this.lblusuario.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblusuario.ForeColor = System.Drawing.Color.White;
+            this.lblusuario.Location = new System.Drawing.Point(232, 98);
             this.lblusuario.Name = "lblusuario";
-            this.lblusuario.Size = new System.Drawing.Size(55, 13);
+            this.lblusuario.Size = new System.Drawing.Size(70, 17);
             this.lblusuario.TabIndex = 2;
             this.lblusuario.Text = "Id Usuario";
             // 
             // lblmedico
             // 
             this.lblmedico.AutoSize = true;
-            this.lblmedico.Location = new System.Drawing.Point(243, 134);
+            this.lblmedico.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblmedico.ForeColor = System.Drawing.Color.White;
+            this.lblmedico.Location = new System.Drawing.Point(232, 133);
             this.lblmedico.Name = "lblmedico";
-            this.lblmedico.Size = new System.Drawing.Size(54, 13);
+            this.lblmedico.Size = new System.Drawing.Size(72, 17);
             this.lblmedico.TabIndex = 3;
             this.lblmedico.Text = "Id Medico";
             // 
             // lblpacientes
             // 
             this.lblpacientes.AutoSize = true;
+            this.lblpacientes.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblpacientes.ForeColor = System.Drawing.Color.White;
             this.lblpacientes.Location = new System.Drawing.Point(70, 138);
             this.lblpacientes.Name = "lblpacientes";
-            this.lblpacientes.Size = new System.Drawing.Size(66, 13);
+            this.lblpacientes.Size = new System.Drawing.Size(86, 17);
             this.lblpacientes.TabIndex = 4;
             this.lblpacientes.Text = "Id Pacientes";
             // 
             // lblfechacita
             // 
             this.lblfechacita.AutoSize = true;
-            this.lblfechacita.Location = new System.Drawing.Point(390, 168);
+            this.lblfechacita.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblfechacita.ForeColor = System.Drawing.Color.White;
+            this.lblfechacita.Location = new System.Drawing.Point(376, 168);
             this.lblfechacita.Name = "lblfechacita";
-            this.lblfechacita.Size = new System.Drawing.Size(57, 13);
+            this.lblfechacita.Size = new System.Drawing.Size(76, 17);
             this.lblfechacita.TabIndex = 5;
             this.lblfechacita.Text = "Fecha cita";
             // 
             // lbltipocita
             // 
             this.lbltipocita.AutoSize = true;
-            this.lbltipocita.Location = new System.Drawing.Point(396, 132);
+            this.lbltipocita.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbltipocita.ForeColor = System.Drawing.Color.White;
+            this.lbltipocita.Location = new System.Drawing.Point(376, 133);
             this.lbltipocita.Name = "lbltipocita";
-            this.lbltipocita.Size = new System.Drawing.Size(48, 13);
+            this.lbltipocita.Size = new System.Drawing.Size(63, 17);
             this.lbltipocita.TabIndex = 6;
             this.lbltipocita.Text = "Tipo cita";
             // 
             // lblestado
             // 
             this.lblestado.AutoSize = true;
-            this.lblestado.Location = new System.Drawing.Point(407, 98);
+            this.lblestado.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblestado.ForeColor = System.Drawing.Color.White;
+            this.lblestado.Location = new System.Drawing.Point(376, 98);
             this.lblestado.Name = "lblestado";
-            this.lblestado.Size = new System.Drawing.Size(40, 13);
+            this.lblestado.Size = new System.Drawing.Size(52, 17);
             this.lblestado.TabIndex = 7;
             this.lblestado.Text = "Estado";
             // 
@@ -254,6 +269,7 @@
             this.cuDataGridD1.AlDatosEntrada = ((System.Collections.ArrayList)(resources.GetObject("cuDataGridD1.AlDatosEntrada")));
             this.cuDataGridD1.alObtenerCampos = ((System.Collections.ArrayList)(resources.GetObject("cuDataGridD1.alObtenerCampos")));
             this.cuDataGridD1.AutoSize = true;
+            this.cuDataGridD1.BackColor = System.Drawing.Color.DarkGray;
             this.cuDataGridD1.ICampo = 0;
             this.cuDataGridD1.Location = new System.Drawing.Point(-4, 3);
             this.cuDataGridD1.Name = "cuDataGridD1";
@@ -278,6 +294,7 @@
             this.cuDataGridD2.AlDatosEntrada = ((System.Collections.ArrayList)(resources.GetObject("cuDataGridD2.AlDatosEntrada")));
             this.cuDataGridD2.alObtenerCampos = ((System.Collections.ArrayList)(resources.GetObject("cuDataGridD2.alObtenerCampos")));
             this.cuDataGridD2.AutoSize = true;
+            this.cuDataGridD2.BackColor = System.Drawing.Color.DarkGray;
             this.cuDataGridD2.ICampo = 0;
             this.cuDataGridD2.Location = new System.Drawing.Point(-4, 3);
             this.cuDataGridD2.Name = "cuDataGridD2";
@@ -302,6 +319,7 @@
             this.cuDataGridD3.AlDatosEntrada = ((System.Collections.ArrayList)(resources.GetObject("cuDataGridD3.AlDatosEntrada")));
             this.cuDataGridD3.alObtenerCampos = ((System.Collections.ArrayList)(resources.GetObject("cuDataGridD3.alObtenerCampos")));
             this.cuDataGridD3.AutoSize = true;
+            this.cuDataGridD3.BackColor = System.Drawing.Color.DarkGray;
             this.cuDataGridD3.ICampo = 0;
             this.cuDataGridD3.Location = new System.Drawing.Point(-4, 0);
             this.cuDataGridD3.Name = "cuDataGridD3";
@@ -314,6 +332,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.HotTrack;
             this.ClientSize = new System.Drawing.Size(643, 414);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.dtpFechaCita);
@@ -333,7 +352,10 @@
             this.Controls.Add(this.lblusuario);
             this.Controls.Add(this.lblcitamedica);
             this.Controls.Add(this.navegador1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "wfCitaMedica";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cita Medica";

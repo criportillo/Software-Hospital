@@ -30,13 +30,24 @@
         {
             this.components = new System.ComponentModel.Container();
             Microsoft.Reporting.WinForms.ReportDataSource reportDataSource1 = new Microsoft.Reporting.WinForms.ReportDataSource();
-            this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
-            this.dsPaciente = new dll_reporteador.Presentacion.dsPaciente();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(wfReportePaciente));
             this.dtPacienteBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.dsPaciente = new dll_reporteador.Presentacion.dsPaciente();
+            this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
             this.dtPacienteTA = new dll_reporteador.Presentacion.dsPacienteTableAdapters.dtPacienteTA();
-            ((System.ComponentModel.ISupportInitialize)(this.dsPaciente)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dtPacienteBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dsPaciente)).BeginInit();
             this.SuspendLayout();
+            // 
+            // dtPacienteBindingSource
+            // 
+            this.dtPacienteBindingSource.DataMember = "dtPaciente";
+            this.dtPacienteBindingSource.DataSource = this.dsPaciente;
+            // 
+            // dsPaciente
+            // 
+            this.dsPaciente.DataSetName = "dsPaciente";
+            this.dsPaciente.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // reportViewer1
             // 
@@ -50,16 +61,6 @@
             this.reportViewer1.Size = new System.Drawing.Size(727, 343);
             this.reportViewer1.TabIndex = 0;
             // 
-            // dsPaciente
-            // 
-            this.dsPaciente.DataSetName = "dsPaciente";
-            this.dsPaciente.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // dtPacienteBindingSource
-            // 
-            this.dtPacienteBindingSource.DataMember = "dtPaciente";
-            this.dtPacienteBindingSource.DataSource = this.dsPaciente;
-            // 
             // dtPacienteTA
             // 
             this.dtPacienteTA.ClearBeforeFill = true;
@@ -70,13 +71,16 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(727, 343);
             this.Controls.Add(this.reportViewer1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "wfReportePaciente";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Reporte Paciente";
             this.Load += new System.EventHandler(this.wfReportePaciente_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dsPaciente)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dtPacienteBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dsPaciente)).EndInit();
             this.ResumeLayout(false);
 
         }

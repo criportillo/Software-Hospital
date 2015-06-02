@@ -28,3 +28,13 @@ C:\Users\orochi\Desktop\dll_bitacora\dll_bitacora\obj\Debug\dll_bitacora.csproj.
 C:\Users\orochi\Desktop\dll_bitacora\dll_bitacora\obj\Debug\dll_bitacora.dll
 C:\Users\orochi\Desktop\dll_bitacora\dll_bitacora\obj\Debug\dll_bitacora.pdb
 C:\Users\orochi\Desktop\dll_bitacora\dll_bitacora\obj\Debug\dll_bitacora.csprojResolveAssemblyReference.cache
+C:\Users\Jessy\Desktop\dll_bitacora\dll_bitacora\bin\Debug\dll_bitacora.dll
+C:\Users\Jessy\Desktop\dll_bitacora\dll_bitacora\bin\Debug\dll_bitacora.pdb
+C:\Users\Jessy\Desktop\dll_bitacora\dll_bitacora\bin\Debug\ODBCconnector.pdb
+C:\Users\Jessy\Desktop\dll_bitacora\dll_bitacora\obj\Debug\dll_bitacora.csprojResolveAssemblyReference.cache
+C:\Users\Jessy\Desktop\dll_bitacora\dll_bitacora\obj\Debug\dll_bitacora.Presentacion.cuDataGridConBusqueda.resources
+C:\Users\Jessy\Desktop\dll_bitacora\dll_bitacora\obj\Debug\dll_bitacora.Presentacion.cuDataGridD.resources
+C:\Users\Jessy\Desktop\dll_bitacora\dll_bitacora\obj\Debug\dll_bitacora.Presentacion.wfBitacora.resources
+C:\Users\Jessy\Desktop\dll_bitacora\dll_bitacora\obj\Debug\dll_bitacora.csproj.GenerateResource.Cache
+C:\Users\Jessy\Desktop\dll_bitacora\dll_bitacora\obj\Debug\dll_bitacora.dll
+C:\Users\Jessy\Desktop\dll_bitacora\dll_bitacora\obj\Debug\dll_bitacora.pdb

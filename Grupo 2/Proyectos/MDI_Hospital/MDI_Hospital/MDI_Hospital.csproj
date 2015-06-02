@@ -51,7 +51,8 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\dll_paciente\dll_paciente\bin\Debug\dll_paciente.dll</HintPath>
     </Reference>
-    <Reference Include="dll_reporteador">
+    <Reference Include="dll_reporteador, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\dll_reporteador\dll_reporteador\dll_reporteador\bin\Debug\dll_reporteador.dll</HintPath>
     </Reference>
     <Reference Include="dll_seguridad, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">

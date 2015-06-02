@@ -36,3 +36,16 @@ C:\Users\orochi\Desktop\dll_paciente\dll_paciente\bin\Debug\dll_paciente.pdb
 C:\Users\orochi\Desktop\dll_paciente\dll_paciente\bin\Debug\dll_bitacora.dll
 C:\Users\orochi\Desktop\dll_paciente\dll_paciente\bin\Debug\dll_bitacora.pdb
 C:\Users\orochi\Desktop\dll_paciente\dll_paciente\obj\Debug\dll_paciente.pdb
+C:\Users\Jessy\Desktop\dll_paciente\dll_paciente\bin\Debug\dll_paciente.dll
+C:\Users\Jessy\Desktop\dll_paciente\dll_paciente\bin\Debug\dll_paciente.pdb
+C:\Users\Jessy\Desktop\dll_paciente\dll_paciente\bin\Debug\dll_bitacora.dll
+C:\Users\Jessy\Desktop\dll_paciente\dll_paciente\bin\Debug\dll_bitacora.pdb
+C:\Users\Jessy\Desktop\dll_paciente\dll_paciente\obj\Debug\dll_paciente.csprojResolveAssemblyReference.cache
+C:\Users\Jessy\Desktop\dll_paciente\dll_paciente\obj\Debug\dll_paciente.Presentacion.wfAntecedentesMed.resources
+C:\Users\Jessy\Desktop\dll_paciente\dll_paciente\obj\Debug\dll_paciente.Presentacion.wfEnfermedadesAnt.resources
+C:\Users\Jessy\Desktop\dll_paciente\dll_paciente\obj\Debug\dll_paciente.Presentacion.wfExamenRutinario.resources
+C:\Users\Jessy\Desktop\dll_paciente\dll_paciente\obj\Debug\dll_paciente.Presentacion.wfPaciente.resources
+C:\Users\Jessy\Desktop\dll_paciente\dll_paciente\obj\Debug\dll_paciente.Presentacion.wfRecetaMedica.resources
+C:\Users\Jessy\Desktop\dll_paciente\dll_paciente\obj\Debug\dll_paciente.csproj.GenerateResource.Cache
+C:\Users\Jessy\Desktop\dll_paciente\dll_paciente\obj\Debug\dll_paciente.dll
+C:\Users\Jessy\Desktop\dll_paciente\dll_paciente\obj\Debug\dll_paciente.pdb

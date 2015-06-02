@@ -52,12 +52,14 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.BackColor = System.Drawing.SystemColors.HotTrack;
             this.ClientSize = new System.Drawing.Size(596, 339);
             this.Controls.Add(this.cuDataGridConBusqueda1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "wfBitacora";
-            this.Text = "wfBitacora";
+            this.Text = "Bitacora";
             this.Load += new System.EventHandler(this.wfBitacora_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

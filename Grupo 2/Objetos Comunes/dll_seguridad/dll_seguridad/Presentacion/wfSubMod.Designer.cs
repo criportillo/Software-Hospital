@@ -51,51 +51,61 @@
             // lblcodsubmod
             // 
             this.lblcodsubmod.AutoSize = true;
+            this.lblcodsubmod.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblcodsubmod.ForeColor = System.Drawing.Color.White;
             this.lblcodsubmod.Location = new System.Drawing.Point(22, 100);
             this.lblcodsubmod.Name = "lblcodsubmod";
-            this.lblcodsubmod.Size = new System.Drawing.Size(97, 13);
+            this.lblcodsubmod.Size = new System.Drawing.Size(139, 17);
             this.lblcodsubmod.TabIndex = 0;
             this.lblcodsubmod.Text = "Código sub módulo";
             // 
             // lblcodmod
             // 
             this.lblcodmod.AutoSize = true;
+            this.lblcodmod.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblcodmod.ForeColor = System.Drawing.Color.White;
             this.lblcodmod.Location = new System.Drawing.Point(195, 100);
             this.lblcodmod.Name = "lblcodmod";
-            this.lblcodmod.Size = new System.Drawing.Size(77, 13);
+            this.lblcodmod.Size = new System.Drawing.Size(113, 17);
             this.lblcodmod.TabIndex = 1;
             this.lblcodmod.Text = "Código módulo";
             // 
             // lblnomsubmod
             // 
             this.lblnomsubmod.AutoSize = true;
+            this.lblnomsubmod.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblnomsubmod.ForeColor = System.Drawing.Color.White;
             this.lblnomsubmod.Location = new System.Drawing.Point(22, 137);
             this.lblnomsubmod.Name = "lblnomsubmod";
-            this.lblnomsubmod.Size = new System.Drawing.Size(101, 13);
+            this.lblnomsubmod.Size = new System.Drawing.Size(142, 17);
             this.lblnomsubmod.TabIndex = 2;
             this.lblnomsubmod.Text = "Nombre sub módulo";
             // 
             // lblnombrewf
             // 
             this.lblnombrewf.AutoSize = true;
+            this.lblnombrewf.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblnombrewf.ForeColor = System.Drawing.Color.White;
             this.lblnombrewf.Location = new System.Drawing.Point(312, 136);
             this.lblnombrewf.Name = "lblnombrewf";
-            this.lblnombrewf.Size = new System.Drawing.Size(92, 13);
+            this.lblnombrewf.Size = new System.Drawing.Size(131, 17);
             this.lblnombrewf.TabIndex = 3;
             this.lblnombrewf.Text = "Nombre formulario";
             // 
             // lblestado
             // 
             this.lblestado.AutoSize = true;
+            this.lblestado.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblestado.ForeColor = System.Drawing.Color.White;
             this.lblestado.Location = new System.Drawing.Point(367, 101);
             this.lblestado.Name = "lblestado";
-            this.lblestado.Size = new System.Drawing.Size(40, 13);
+            this.lblestado.Size = new System.Drawing.Size(52, 17);
             this.lblestado.TabIndex = 4;
             this.lblestado.Text = "Estado";
             // 
             // txtIDSubMod
             // 
-            this.txtIDSubMod.Location = new System.Drawing.Point(123, 93);
+            this.txtIDSubMod.Location = new System.Drawing.Point(161, 94);
             this.txtIDSubMod.Name = "txtIDSubMod";
             this.txtIDSubMod.Size = new System.Drawing.Size(28, 20);
             this.txtIDSubMod.TabIndex = 1;
@@ -103,7 +113,7 @@
             // 
             // txtIDMod
             // 
-            this.txtIDMod.Location = new System.Drawing.Point(288, 93);
+            this.txtIDMod.Location = new System.Drawing.Point(314, 93);
             this.txtIDMod.Name = "txtIDMod";
             this.txtIDMod.Size = new System.Drawing.Size(28, 20);
             this.txtIDMod.TabIndex = 2;
@@ -111,7 +121,7 @@
             // 
             // txtNomSubMod
             // 
-            this.txtNomSubMod.Location = new System.Drawing.Point(142, 129);
+            this.txtNomSubMod.Location = new System.Drawing.Point(161, 133);
             this.txtNomSubMod.Name = "txtNomSubMod";
             this.txtNomSubMod.Size = new System.Drawing.Size(100, 20);
             this.txtNomSubMod.TabIndex = 4;
@@ -119,7 +129,7 @@
             // 
             // txtNomForm
             // 
-            this.txtNomForm.Location = new System.Drawing.Point(420, 128);
+            this.txtNomForm.Location = new System.Drawing.Point(463, 128);
             this.txtNomForm.Name = "txtNomForm";
             this.txtNomForm.Size = new System.Drawing.Size(100, 20);
             this.txtNomForm.TabIndex = 5;
@@ -127,7 +137,7 @@
             // 
             // txtEstado
             // 
-            this.txtEstado.Location = new System.Drawing.Point(524, 94);
+            this.txtEstado.Location = new System.Drawing.Point(567, 94);
             this.txtEstado.Name = "txtEstado";
             this.txtEstado.Size = new System.Drawing.Size(21, 20);
             this.txtEstado.TabIndex = 8;
@@ -138,9 +148,10 @@
             // navegador1
             // 
             this.navegador1.alDatosEntrada = ((System.Collections.ArrayList)(resources.GetObject("navegador1.alDatosEntrada")));
+            this.navegador1.BackColor = System.Drawing.Color.Transparent;
             this.navegador1.bEjecutarEvento = true;
             this.navegador1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.navegador1.Location = new System.Drawing.Point(12, 22);
+            this.navegador1.Location = new System.Drawing.Point(12, 12);
             this.navegador1.Name = "navegador1";
             this.navegador1.Size = new System.Drawing.Size(598, 54);
             this.navegador1.sNombreTabla = "sub_modulo";
@@ -159,7 +170,7 @@
             this.cbestado.Items.AddRange(new object[] {
             "Activado",
             "Desactivado"});
-            this.cbestado.Location = new System.Drawing.Point(420, 92);
+            this.cbestado.Location = new System.Drawing.Point(463, 92);
             this.cbestado.Name = "cbestado";
             this.cbestado.Size = new System.Drawing.Size(98, 21);
             this.cbestado.TabIndex = 3;
@@ -168,24 +179,28 @@
             // lblfechcreacion
             // 
             this.lblfechcreacion.AutoSize = true;
+            this.lblfechcreacion.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblfechcreacion.ForeColor = System.Drawing.Color.White;
             this.lblfechcreacion.Location = new System.Drawing.Point(25, 168);
             this.lblfechcreacion.Name = "lblfechcreacion";
-            this.lblfechcreacion.Size = new System.Drawing.Size(81, 13);
+            this.lblfechcreacion.Size = new System.Drawing.Size(108, 17);
             this.lblfechcreacion.TabIndex = 11;
             this.lblfechcreacion.Text = "Fecha creación";
             // 
             // lblfechmodificacion
             // 
             this.lblfechmodificacion.AutoSize = true;
+            this.lblfechmodificacion.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblfechmodificacion.ForeColor = System.Drawing.Color.White;
             this.lblfechmodificacion.Location = new System.Drawing.Point(315, 167);
             this.lblfechmodificacion.Name = "lblfechmodificacion";
-            this.lblfechmodificacion.Size = new System.Drawing.Size(99, 13);
+            this.lblfechmodificacion.Size = new System.Drawing.Size(137, 17);
             this.lblfechmodificacion.TabIndex = 12;
             this.lblfechmodificacion.Text = "Fecha modificación";
             // 
             // txtfecc
             // 
-            this.txtfecc.Location = new System.Drawing.Point(142, 168);
+            this.txtfecc.Location = new System.Drawing.Point(161, 167);
             this.txtfecc.Name = "txtfecc";
             this.txtfecc.Size = new System.Drawing.Size(100, 20);
             this.txtfecc.TabIndex = 13;
@@ -193,7 +208,7 @@
             // 
             // txtfecm
             // 
-            this.txtfecm.Location = new System.Drawing.Point(420, 160);
+            this.txtfecm.Location = new System.Drawing.Point(463, 160);
             this.txtfecm.Name = "txtfecm";
             this.txtfecm.Size = new System.Drawing.Size(100, 20);
             this.txtfecm.TabIndex = 14;
@@ -216,6 +231,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.HotTrack;
             this.ClientSize = new System.Drawing.Size(625, 377);
             this.Controls.Add(this.dgvmodulo);
             this.Controls.Add(this.txtfecm);
@@ -234,6 +250,7 @@
             this.Controls.Add(this.lblnomsubmod);
             this.Controls.Add(this.lblcodmod);
             this.Controls.Add(this.lblcodsubmod);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "wfSubMod";

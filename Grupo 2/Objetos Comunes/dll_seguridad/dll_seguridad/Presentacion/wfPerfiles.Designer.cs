@@ -46,34 +46,40 @@
             // lblcodperfil
             // 
             this.lblcodperfil.AutoSize = true;
+            this.lblcodperfil.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblcodperfil.ForeColor = System.Drawing.Color.White;
             this.lblcodperfil.Location = new System.Drawing.Point(29, 109);
             this.lblcodperfil.Name = "lblcodperfil";
-            this.lblcodperfil.Size = new System.Drawing.Size(65, 13);
+            this.lblcodperfil.Size = new System.Drawing.Size(93, 17);
             this.lblcodperfil.TabIndex = 0;
             this.lblcodperfil.Text = "Código perfil";
             // 
             // lblnombreperfil
             // 
             this.lblnombreperfil.AutoSize = true;
+            this.lblnombreperfil.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblnombreperfil.ForeColor = System.Drawing.Color.White;
             this.lblnombreperfil.Location = new System.Drawing.Point(176, 108);
             this.lblnombreperfil.Name = "lblnombreperfil";
-            this.lblnombreperfil.Size = new System.Drawing.Size(69, 13);
+            this.lblnombreperfil.Size = new System.Drawing.Size(96, 17);
             this.lblnombreperfil.TabIndex = 1;
             this.lblnombreperfil.Text = "Nombre perfil";
             // 
             // lblestado
             // 
             this.lblestado.AutoSize = true;
-            this.lblestado.Location = new System.Drawing.Point(400, 109);
+            this.lblestado.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblestado.ForeColor = System.Drawing.Color.White;
+            this.lblestado.Location = new System.Drawing.Point(420, 109);
             this.lblestado.Name = "lblestado";
-            this.lblestado.Size = new System.Drawing.Size(40, 13);
+            this.lblestado.Size = new System.Drawing.Size(52, 17);
             this.lblestado.TabIndex = 2;
             this.lblestado.Text = "Estado";
             // 
             // txtCodPerfil
             // 
             this.txtCodPerfil.Enabled = false;
-            this.txtCodPerfil.Location = new System.Drawing.Point(117, 102);
+            this.txtCodPerfil.Location = new System.Drawing.Point(128, 107);
             this.txtCodPerfil.Name = "txtCodPerfil";
             this.txtCodPerfil.Size = new System.Drawing.Size(26, 20);
             this.txtCodPerfil.TabIndex = 1;
@@ -81,7 +87,7 @@
             // 
             // txtEstado
             // 
-            this.txtEstado.Location = new System.Drawing.Point(558, 101);
+            this.txtEstado.Location = new System.Drawing.Point(597, 101);
             this.txtEstado.Name = "txtEstado";
             this.txtEstado.Size = new System.Drawing.Size(21, 20);
             this.txtEstado.TabIndex = 4;
@@ -91,7 +97,7 @@
             // 
             // txtNombre
             // 
-            this.txtNombre.Location = new System.Drawing.Point(254, 101);
+            this.txtNombre.Location = new System.Drawing.Point(291, 105);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(100, 20);
             this.txtNombre.TabIndex = 3;
@@ -100,6 +106,7 @@
             // navegador1
             // 
             this.navegador1.alDatosEntrada = ((System.Collections.ArrayList)(resources.GetObject("navegador1.alDatosEntrada")));
+            this.navegador1.BackColor = System.Drawing.Color.Transparent;
             this.navegador1.bEjecutarEvento = true;
             this.navegador1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.navegador1.Location = new System.Drawing.Point(15, 21);
@@ -117,15 +124,17 @@
             // lblfechcreacion
             // 
             this.lblfechcreacion.AutoSize = true;
-            this.lblfechcreacion.Location = new System.Drawing.Point(29, 152);
+            this.lblfechcreacion.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblfechcreacion.ForeColor = System.Drawing.Color.White;
+            this.lblfechcreacion.Location = new System.Drawing.Point(46, 152);
             this.lblfechcreacion.Name = "lblfechcreacion";
-            this.lblfechcreacion.Size = new System.Drawing.Size(81, 13);
+            this.lblfechcreacion.Size = new System.Drawing.Size(108, 17);
             this.lblfechcreacion.TabIndex = 7;
             this.lblfechcreacion.Text = "Fecha creación";
             // 
             // txtfech
             // 
-            this.txtfech.Location = new System.Drawing.Point(125, 145);
+            this.txtfech.Location = new System.Drawing.Point(179, 149);
             this.txtfech.Name = "txtfech";
             this.txtfech.Size = new System.Drawing.Size(100, 20);
             this.txtfech.TabIndex = 4;
@@ -138,7 +147,7 @@
             this.cbEstado.Items.AddRange(new object[] {
             "Activado ",
             "Desactivado"});
-            this.cbEstado.Location = new System.Drawing.Point(456, 101);
+            this.cbEstado.Location = new System.Drawing.Point(478, 101);
             this.cbEstado.Name = "cbEstado";
             this.cbEstado.Size = new System.Drawing.Size(100, 21);
             this.cbEstado.TabIndex = 2;
@@ -147,15 +156,17 @@
             // lblfechmodificacion
             // 
             this.lblfechmodificacion.AutoSize = true;
-            this.lblfechmodificacion.Location = new System.Drawing.Point(254, 152);
+            this.lblfechmodificacion.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblfechmodificacion.ForeColor = System.Drawing.Color.White;
+            this.lblfechmodificacion.Location = new System.Drawing.Point(297, 152);
             this.lblfechmodificacion.Name = "lblfechmodificacion";
-            this.lblfechmodificacion.Size = new System.Drawing.Size(99, 13);
+            this.lblfechmodificacion.Size = new System.Drawing.Size(137, 17);
             this.lblfechmodificacion.TabIndex = 8;
             this.lblfechmodificacion.Text = "Fecha modificación";
             // 
             // txtfecm
             // 
-            this.txtfecm.Location = new System.Drawing.Point(360, 145);
+            this.txtfecm.Location = new System.Drawing.Point(440, 145);
             this.txtfecm.Name = "txtfecm";
             this.txtfecm.Size = new System.Drawing.Size(100, 20);
             this.txtfecm.TabIndex = 9;
@@ -165,6 +176,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.HotTrack;
             this.ClientSize = new System.Drawing.Size(634, 197);
             this.Controls.Add(this.txtfecm);
             this.Controls.Add(this.lblfechmodificacion);
@@ -178,6 +190,7 @@
             this.Controls.Add(this.lblestado);
             this.Controls.Add(this.lblnombreperfil);
             this.Controls.Add(this.lblcodperfil);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "wfPerfiles";

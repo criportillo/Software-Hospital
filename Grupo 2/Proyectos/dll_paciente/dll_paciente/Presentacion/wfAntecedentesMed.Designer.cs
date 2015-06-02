@@ -51,51 +51,59 @@
             // lbldescripcion
             // 
             this.lbldescripcion.AutoSize = true;
+            this.lbldescripcion.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbldescripcion.ForeColor = System.Drawing.Color.White;
             this.lbldescripcion.Location = new System.Drawing.Point(40, 120);
             this.lbldescripcion.Name = "lbldescripcion";
-            this.lbldescripcion.Size = new System.Drawing.Size(63, 13);
+            this.lbldescripcion.Size = new System.Drawing.Size(83, 17);
             this.lbldescripcion.TabIndex = 26;
             this.lbldescripcion.Text = "Descripcion";
             // 
             // lblidenfermedad
             // 
             this.lblidenfermedad.AutoSize = true;
-            this.lblidenfermedad.Location = new System.Drawing.Point(512, 84);
+            this.lblidenfermedad.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblidenfermedad.ForeColor = System.Drawing.Color.White;
+            this.lblidenfermedad.Location = new System.Drawing.Point(473, 84);
             this.lblidenfermedad.Name = "lblidenfermedad";
-            this.lblidenfermedad.Size = new System.Drawing.Size(77, 13);
+            this.lblidenfermedad.Size = new System.Drawing.Size(105, 17);
             this.lblidenfermedad.TabIndex = 25;
             this.lblidenfermedad.Text = "ID enfermedad";
             // 
             // lblidPaciente
             // 
             this.lblidPaciente.AutoSize = true;
-            this.lblidPaciente.Location = new System.Drawing.Point(294, 83);
+            this.lblidPaciente.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblidPaciente.ForeColor = System.Drawing.Color.White;
+            this.lblidPaciente.Location = new System.Drawing.Point(276, 84);
             this.lblidPaciente.Name = "lblidPaciente";
-            this.lblidPaciente.Size = new System.Drawing.Size(62, 13);
+            this.lblidPaciente.Size = new System.Drawing.Size(83, 17);
             this.lblidPaciente.TabIndex = 24;
             this.lblidPaciente.Text = "ID paciente";
             // 
             // lblidAnte
             // 
             this.lblidAnte.AutoSize = true;
+            this.lblidAnte.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblidAnte.ForeColor = System.Drawing.Color.White;
             this.lblidAnte.Location = new System.Drawing.Point(40, 84);
             this.lblidAnte.Name = "lblidAnte";
-            this.lblidAnte.Size = new System.Drawing.Size(86, 13);
+            this.lblidAnte.Size = new System.Drawing.Size(114, 17);
             this.lblidAnte.TabIndex = 23;
             this.lblidAnte.Text = "ID antecedentes";
             // 
             // txtdescripcion
             // 
-            this.txtdescripcion.Location = new System.Drawing.Point(132, 120);
+            this.txtdescripcion.Location = new System.Drawing.Point(160, 119);
             this.txtdescripcion.Multiline = true;
             this.txtdescripcion.Name = "txtdescripcion";
-            this.txtdescripcion.Size = new System.Drawing.Size(505, 75);
+            this.txtdescripcion.Size = new System.Drawing.Size(477, 75);
             this.txtdescripcion.TabIndex = 22;
             this.txtdescripcion.Tag = "Descripcion";
             // 
             // txtidenfermedad
             // 
-            this.txtidenfermedad.Location = new System.Drawing.Point(595, 77);
+            this.txtidenfermedad.Location = new System.Drawing.Point(595, 81);
             this.txtidenfermedad.Name = "txtidenfermedad";
             this.txtidenfermedad.Size = new System.Drawing.Size(42, 20);
             this.txtidenfermedad.TabIndex = 21;
@@ -103,7 +111,7 @@
             // 
             // txtidpaciente
             // 
-            this.txtidpaciente.Location = new System.Drawing.Point(376, 76);
+            this.txtidpaciente.Location = new System.Drawing.Point(376, 83);
             this.txtidpaciente.Name = "txtidpaciente";
             this.txtidpaciente.Size = new System.Drawing.Size(35, 20);
             this.txtidpaciente.TabIndex = 20;
@@ -111,7 +119,7 @@
             // 
             // txtidantecedente
             // 
-            this.txtidantecedente.Location = new System.Drawing.Point(132, 81);
+            this.txtidantecedente.Location = new System.Drawing.Point(160, 83);
             this.txtidantecedente.Name = "txtidantecedente";
             this.txtidantecedente.Size = new System.Drawing.Size(34, 20);
             this.txtidantecedente.TabIndex = 19;
@@ -124,7 +132,7 @@
             this.tbcantecedentesmedicos.Location = new System.Drawing.Point(39, 201);
             this.tbcantecedentesmedicos.Name = "tbcantecedentesmedicos";
             this.tbcantecedentesmedicos.SelectedIndex = 0;
-            this.tbcantecedentesmedicos.Size = new System.Drawing.Size(598, 267);
+            this.tbcantecedentesmedicos.Size = new System.Drawing.Size(598, 247);
             this.tbcantecedentesmedicos.TabIndex = 18;
             // 
             // tbppaciente
@@ -133,7 +141,7 @@
             this.tbppaciente.Location = new System.Drawing.Point(4, 22);
             this.tbppaciente.Name = "tbppaciente";
             this.tbppaciente.Padding = new System.Windows.Forms.Padding(3);
-            this.tbppaciente.Size = new System.Drawing.Size(590, 241);
+            this.tbppaciente.Size = new System.Drawing.Size(590, 221);
             this.tbppaciente.TabIndex = 0;
             this.tbppaciente.Text = "Paciente";
             this.tbppaciente.UseVisualStyleBackColor = true;
@@ -143,10 +151,11 @@
             this.cuDataGridD1.AlDatosEntrada = ((System.Collections.ArrayList)(resources.GetObject("cuDataGridD1.AlDatosEntrada")));
             this.cuDataGridD1.alObtenerCampos = ((System.Collections.ArrayList)(resources.GetObject("cuDataGridD1.alObtenerCampos")));
             this.cuDataGridD1.AutoSize = true;
+            this.cuDataGridD1.BackColor = System.Drawing.Color.DarkGray;
             this.cuDataGridD1.ICampo = 0;
             this.cuDataGridD1.Location = new System.Drawing.Point(3, 6);
             this.cuDataGridD1.Name = "cuDataGridD1";
-            this.cuDataGridD1.Size = new System.Drawing.Size(581, 239);
+            this.cuDataGridD1.Size = new System.Drawing.Size(581, 272);
             this.cuDataGridD1.STabla = "paciente";
             this.cuDataGridD1.TabIndex = 1;
             this.cuDataGridD1.sdgv_CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.cuDataGridD1_sdgv_CellClick);
@@ -157,7 +166,7 @@
             this.tbpemfermedad.Location = new System.Drawing.Point(4, 22);
             this.tbpemfermedad.Name = "tbpemfermedad";
             this.tbpemfermedad.Padding = new System.Windows.Forms.Padding(3);
-            this.tbpemfermedad.Size = new System.Drawing.Size(590, 241);
+            this.tbpemfermedad.Size = new System.Drawing.Size(590, 221);
             this.tbpemfermedad.TabIndex = 1;
             this.tbpemfermedad.Text = "Enfermedad";
             this.tbpemfermedad.UseVisualStyleBackColor = true;
@@ -167,6 +176,7 @@
             this.cuDataGridD2.AlDatosEntrada = ((System.Collections.ArrayList)(resources.GetObject("cuDataGridD2.AlDatosEntrada")));
             this.cuDataGridD2.alObtenerCampos = ((System.Collections.ArrayList)(resources.GetObject("cuDataGridD2.alObtenerCampos")));
             this.cuDataGridD2.AutoSize = true;
+            this.cuDataGridD2.BackColor = System.Drawing.Color.DarkGray;
             this.cuDataGridD2.ICampo = 0;
             this.cuDataGridD2.Location = new System.Drawing.Point(0, 6);
             this.cuDataGridD2.Name = "cuDataGridD2";
@@ -178,6 +188,7 @@
             // navegador1
             // 
             this.navegador1.alDatosEntrada = ((System.Collections.ArrayList)(resources.GetObject("navegador1.alDatosEntrada")));
+            this.navegador1.BackColor = System.Drawing.Color.Transparent;
             this.navegador1.bEjecutarEvento = true;
             this.navegador1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.navegador1.Location = new System.Drawing.Point(39, 7);
@@ -191,7 +202,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(703, 477);
+            this.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.ClientSize = new System.Drawing.Size(703, 507);
             this.Controls.Add(this.lbldescripcion);
             this.Controls.Add(this.lblidenfermedad);
             this.Controls.Add(this.lblidPaciente);
@@ -202,7 +214,8 @@
             this.Controls.Add(this.txtidantecedente);
             this.Controls.Add(this.tbcantecedentesmedicos);
             this.Controls.Add(this.navegador1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "wfAntecedentesMed";

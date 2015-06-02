@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(wfMDI));
             this.mSMenu = new System.Windows.Forms.MenuStrip();
             this.tlmEstado = new System.Windows.Forms.ToolStrip();
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
@@ -50,6 +51,7 @@
             // 
             // tlmEstado
             // 
+            this.tlmEstado.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.tlmEstado.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.tlmEstado.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripSeparator2,
@@ -72,12 +74,14 @@
             // 
             // tSlblusuario
             // 
+            this.tSlblusuario.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.tSlblusuario.Name = "tSlblusuario";
             this.tSlblusuario.Size = new System.Drawing.Size(50, 22);
             this.tSlblusuario.Text = "Usuario:";
             // 
             // tllblNombre
             // 
+            this.tllblNombre.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.tllblNombre.Name = "tllblNombre";
             this.tllblNombre.Size = new System.Drawing.Size(71, 22);
             this.tllblNombre.Text = "tllblNombre";
@@ -90,6 +94,7 @@
             // 
             // tlblCodUsuario
             // 
+            this.tlblCodUsuario.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.tlblCodUsuario.Name = "tlblCodUsuario";
             this.tlblCodUsuario.Size = new System.Drawing.Size(86, 22);
             this.tlblCodUsuario.Text = "tlblCodUsuario";
@@ -97,12 +102,14 @@
             // 
             // lblTipo
             // 
+            this.lblTipo.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTipo.Name = "lblTipo";
             this.lblTipo.Size = new System.Drawing.Size(54, 22);
             this.lblTipo.Text = "Moneda:";
             // 
             // tlblMoneda
             // 
+            this.tlblMoneda.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.tlblMoneda.Name = "tlblMoneda";
             this.tlblMoneda.Size = new System.Drawing.Size(68, 22);
             this.tlblMoneda.Text = "tlblMoneda";
@@ -111,10 +118,13 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(834, 612);
             this.Controls.Add(this.tlmEstado);
             this.Controls.Add(this.mSMenu);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.mSMenu;
             this.Name = "wfMDI";

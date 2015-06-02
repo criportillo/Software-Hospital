@@ -49,6 +49,7 @@
             // navegador1
             // 
             this.navegador1.alDatosEntrada = ((System.Collections.ArrayList)(resources.GetObject("navegador1.alDatosEntrada")));
+            this.navegador1.BackColor = System.Drawing.Color.Transparent;
             this.navegador1.bEjecutarEvento = true;
             this.navegador1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.navegador1.Location = new System.Drawing.Point(12, 12);
@@ -62,61 +63,73 @@
             // lblmedico
             // 
             this.lblmedico.AutoSize = true;
-            this.lblmedico.Location = new System.Drawing.Point(69, 99);
+            this.lblmedico.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblmedico.ForeColor = System.Drawing.Color.White;
+            this.lblmedico.Location = new System.Drawing.Point(59, 98);
             this.lblmedico.Name = "lblmedico";
-            this.lblmedico.Size = new System.Drawing.Size(53, 13);
+            this.lblmedico.Size = new System.Drawing.Size(74, 17);
             this.lblmedico.TabIndex = 1;
             this.lblmedico.Text = "Id medico";
             // 
             // lblnombre
             // 
             this.lblnombre.AutoSize = true;
-            this.lblnombre.Location = new System.Drawing.Point(69, 142);
+            this.lblnombre.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblnombre.ForeColor = System.Drawing.Color.White;
+            this.lblnombre.Location = new System.Drawing.Point(59, 141);
             this.lblnombre.Name = "lblnombre";
-            this.lblnombre.Size = new System.Drawing.Size(44, 13);
+            this.lblnombre.Size = new System.Drawing.Size(61, 17);
             this.lblnombre.TabIndex = 2;
             this.lblnombre.Text = "Nombre";
             // 
             // lblprimerapellido
             // 
             this.lblprimerapellido.AutoSize = true;
-            this.lblprimerapellido.Location = new System.Drawing.Point(333, 139);
+            this.lblprimerapellido.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblprimerapellido.ForeColor = System.Drawing.Color.White;
+            this.lblprimerapellido.Location = new System.Drawing.Point(323, 138);
             this.lblprimerapellido.Name = "lblprimerapellido";
-            this.lblprimerapellido.Size = new System.Drawing.Size(76, 13);
+            this.lblprimerapellido.Size = new System.Drawing.Size(105, 17);
             this.lblprimerapellido.TabIndex = 3;
             this.lblprimerapellido.Text = "Primer Apellido";
             // 
             // lblsegundoapellido
             // 
             this.lblsegundoapellido.AutoSize = true;
-            this.lblsegundoapellido.Location = new System.Drawing.Point(69, 181);
+            this.lblsegundoapellido.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblsegundoapellido.ForeColor = System.Drawing.Color.White;
+            this.lblsegundoapellido.Location = new System.Drawing.Point(59, 180);
             this.lblsegundoapellido.Name = "lblsegundoapellido";
-            this.lblsegundoapellido.Size = new System.Drawing.Size(90, 13);
+            this.lblsegundoapellido.Size = new System.Drawing.Size(122, 17);
             this.lblsegundoapellido.TabIndex = 4;
             this.lblsegundoapellido.Text = "Segundo Apellido";
             // 
             // lblfechaingreso
             // 
             this.lblfechaingreso.AutoSize = true;
-            this.lblfechaingreso.Location = new System.Drawing.Point(334, 181);
+            this.lblfechaingreso.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblfechaingreso.ForeColor = System.Drawing.Color.White;
+            this.lblfechaingreso.Location = new System.Drawing.Point(324, 180);
             this.lblfechaingreso.Name = "lblfechaingreso";
-            this.lblfechaingreso.Size = new System.Drawing.Size(75, 13);
+            this.lblfechaingreso.Size = new System.Drawing.Size(97, 17);
             this.lblfechaingreso.TabIndex = 5;
             this.lblfechaingreso.Text = "Fecha Ingreso";
             // 
             // lblestado
             // 
             this.lblestado.AutoSize = true;
-            this.lblestado.Location = new System.Drawing.Point(334, 102);
+            this.lblestado.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblestado.ForeColor = System.Drawing.Color.White;
+            this.lblestado.Location = new System.Drawing.Point(324, 101);
             this.lblestado.Name = "lblestado";
-            this.lblestado.Size = new System.Drawing.Size(40, 13);
+            this.lblestado.Size = new System.Drawing.Size(52, 17);
             this.lblestado.TabIndex = 6;
             this.lblestado.Text = "Estado";
             // 
             // txtIdMedico
             // 
             this.txtIdMedico.Enabled = false;
-            this.txtIdMedico.Location = new System.Drawing.Point(188, 96);
+            this.txtIdMedico.Location = new System.Drawing.Point(186, 95);
             this.txtIdMedico.Name = "txtIdMedico";
             this.txtIdMedico.Size = new System.Drawing.Size(35, 20);
             this.txtIdMedico.TabIndex = 7;
@@ -124,7 +137,7 @@
             // 
             // txtNombre
             // 
-            this.txtNombre.Location = new System.Drawing.Point(188, 139);
+            this.txtNombre.Location = new System.Drawing.Point(186, 138);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(100, 20);
             this.txtNombre.TabIndex = 8;
@@ -132,7 +145,7 @@
             // 
             // txtPrimerApellido
             // 
-            this.txtPrimerApellido.Location = new System.Drawing.Point(433, 139);
+            this.txtPrimerApellido.Location = new System.Drawing.Point(432, 139);
             this.txtPrimerApellido.Name = "txtPrimerApellido";
             this.txtPrimerApellido.Size = new System.Drawing.Size(100, 20);
             this.txtPrimerApellido.TabIndex = 9;
@@ -140,7 +153,7 @@
             // 
             // txtSegundoApellido
             // 
-            this.txtSegundoApellido.Location = new System.Drawing.Point(188, 181);
+            this.txtSegundoApellido.Location = new System.Drawing.Point(186, 180);
             this.txtSegundoApellido.Name = "txtSegundoApellido";
             this.txtSegundoApellido.Size = new System.Drawing.Size(100, 20);
             this.txtSegundoApellido.TabIndex = 10;
@@ -153,7 +166,7 @@
             this.cboEstado.Items.AddRange(new object[] {
             "Activado",
             "Desactivado"});
-            this.cboEstado.Location = new System.Drawing.Point(433, 94);
+            this.cboEstado.Location = new System.Drawing.Point(432, 94);
             this.cboEstado.Name = "cboEstado";
             this.cboEstado.Size = new System.Drawing.Size(101, 21);
             this.cboEstado.TabIndex = 14;
@@ -161,7 +174,7 @@
             // 
             // txtEstado
             // 
-            this.txtEstado.Location = new System.Drawing.Point(540, 94);
+            this.txtEstado.Location = new System.Drawing.Point(539, 94);
             this.txtEstado.Name = "txtEstado";
             this.txtEstado.Size = new System.Drawing.Size(24, 20);
             this.txtEstado.TabIndex = 13;
@@ -173,7 +186,7 @@
             // 
             this.dtpFechaIngreso.Enabled = false;
             this.dtpFechaIngreso.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpFechaIngreso.Location = new System.Drawing.Point(433, 181);
+            this.dtpFechaIngreso.Location = new System.Drawing.Point(432, 181);
             this.dtpFechaIngreso.Name = "dtpFechaIngreso";
             this.dtpFechaIngreso.Size = new System.Drawing.Size(100, 20);
             this.dtpFechaIngreso.TabIndex = 12;
@@ -181,7 +194,7 @@
             // 
             // txtFechaIngreso
             // 
-            this.txtFechaIngreso.Location = new System.Drawing.Point(539, 181);
+            this.txtFechaIngreso.Location = new System.Drawing.Point(538, 181);
             this.txtFechaIngreso.Name = "txtFechaIngreso";
             this.txtFechaIngreso.Size = new System.Drawing.Size(25, 20);
             this.txtFechaIngreso.TabIndex = 15;
@@ -193,6 +206,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.HotTrack;
             this.ClientSize = new System.Drawing.Size(635, 253);
             this.Controls.Add(this.txtFechaIngreso);
             this.Controls.Add(this.dtpFechaIngreso);
@@ -209,7 +223,10 @@
             this.Controls.Add(this.lblnombre);
             this.Controls.Add(this.lblmedico);
             this.Controls.Add(this.navegador1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "wfMedico";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Medico";

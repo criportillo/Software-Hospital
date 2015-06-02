@@ -42,6 +42,7 @@
             // navegador1
             // 
             this.navegador1.alDatosEntrada = ((System.Collections.ArrayList)(resources.GetObject("navegador1.alDatosEntrada")));
+            this.navegador1.BackColor = System.Drawing.Color.Transparent;
             this.navegador1.bEjecutarEvento = true;
             this.navegador1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.navegador1.Location = new System.Drawing.Point(12, 25);
@@ -54,33 +55,39 @@
             // lblidenfermedad
             // 
             this.lblidenfermedad.AutoSize = true;
+            this.lblidenfermedad.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblidenfermedad.ForeColor = System.Drawing.Color.White;
             this.lblidenfermedad.Location = new System.Drawing.Point(62, 111);
             this.lblidenfermedad.Name = "lblidenfermedad";
-            this.lblidenfermedad.Size = new System.Drawing.Size(77, 13);
+            this.lblidenfermedad.Size = new System.Drawing.Size(105, 17);
             this.lblidenfermedad.TabIndex = 1;
             this.lblidenfermedad.Text = "ID enfermedad";
             // 
             // lblnomenfer
             // 
             this.lblnomenfer.AutoSize = true;
+            this.lblnomenfer.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblnomenfer.ForeColor = System.Drawing.Color.White;
             this.lblnomenfer.Location = new System.Drawing.Point(62, 147);
             this.lblnomenfer.Name = "lblnomenfer";
-            this.lblnomenfer.Size = new System.Drawing.Size(103, 13);
+            this.lblnomenfer.Size = new System.Drawing.Size(145, 17);
             this.lblnomenfer.TabIndex = 2;
             this.lblnomenfer.Text = "Nombre enfermedad";
             // 
             // lblestado
             // 
             this.lblestado.AutoSize = true;
+            this.lblestado.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblestado.ForeColor = System.Drawing.Color.White;
             this.lblestado.Location = new System.Drawing.Point(353, 111);
             this.lblestado.Name = "lblestado";
-            this.lblestado.Size = new System.Drawing.Size(40, 13);
+            this.lblestado.Size = new System.Drawing.Size(52, 17);
             this.lblestado.TabIndex = 3;
             this.lblestado.Text = "Estado";
             // 
             // txtidenfermedad
             // 
-            this.txtidenfermedad.Location = new System.Drawing.Point(188, 104);
+            this.txtidenfermedad.Location = new System.Drawing.Point(220, 104);
             this.txtidenfermedad.Name = "txtidenfermedad";
             this.txtidenfermedad.Size = new System.Drawing.Size(100, 20);
             this.txtidenfermedad.TabIndex = 4;
@@ -88,7 +95,7 @@
             // 
             // txtnomenfer
             // 
-            this.txtnomenfer.Location = new System.Drawing.Point(188, 140);
+            this.txtnomenfer.Location = new System.Drawing.Point(220, 140);
             this.txtnomenfer.Name = "txtnomenfer";
             this.txtnomenfer.Size = new System.Drawing.Size(100, 20);
             this.txtnomenfer.TabIndex = 5;
@@ -121,6 +128,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.HotTrack;
             this.ClientSize = new System.Drawing.Size(622, 184);
             this.Controls.Add(this.cbEstado);
             this.Controls.Add(this.txtestado);
@@ -130,7 +138,8 @@
             this.Controls.Add(this.lblnomenfer);
             this.Controls.Add(this.lblidenfermedad);
             this.Controls.Add(this.navegador1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "wfEnfermedadesAnt";

@@ -62,72 +62,88 @@
             // lblrecetamedica
             // 
             this.lblrecetamedica.AutoSize = true;
-            this.lblrecetamedica.Location = new System.Drawing.Point(60, 92);
+            this.lblrecetamedica.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblrecetamedica.ForeColor = System.Drawing.Color.White;
+            this.lblrecetamedica.Location = new System.Drawing.Point(12, 92);
             this.lblrecetamedica.Name = "lblrecetamedica";
-            this.lblrecetamedica.Size = new System.Drawing.Size(91, 13);
+            this.lblrecetamedica.Size = new System.Drawing.Size(125, 17);
             this.lblrecetamedica.TabIndex = 0;
             this.lblrecetamedica.Text = "ID receta medica:";
             // 
             // lblmedico
             // 
             this.lblmedico.AutoSize = true;
-            this.lblmedico.Location = new System.Drawing.Point(549, 92);
+            this.lblmedico.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblmedico.ForeColor = System.Drawing.Color.White;
+            this.lblmedico.Location = new System.Drawing.Point(560, 89);
             this.lblmedico.Name = "lblmedico";
-            this.lblmedico.Size = new System.Drawing.Size(58, 13);
+            this.lblmedico.Size = new System.Drawing.Size(79, 17);
             this.lblmedico.TabIndex = 1;
             this.lblmedico.Text = "ID médico:";
             // 
             // lblidpaciente
             // 
             this.lblidpaciente.AutoSize = true;
-            this.lblidpaciente.Location = new System.Drawing.Point(366, 92);
+            this.lblidpaciente.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblidpaciente.ForeColor = System.Drawing.Color.White;
+            this.lblidpaciente.Location = new System.Drawing.Point(344, 92);
             this.lblidpaciente.Name = "lblidpaciente";
-            this.lblidpaciente.Size = new System.Drawing.Size(70, 13);
+            this.lblidpaciente.Size = new System.Drawing.Size(92, 17);
             this.lblidpaciente.TabIndex = 2;
             this.lblidpaciente.Text = "ID pacientes:";
             // 
             // lblnombremedicamento
             // 
             this.lblnombremedicamento.AutoSize = true;
-            this.lblnombremedicamento.Location = new System.Drawing.Point(60, 138);
+            this.lblnombremedicamento.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblnombremedicamento.ForeColor = System.Drawing.Color.White;
+            this.lblnombremedicamento.Location = new System.Drawing.Point(12, 134);
             this.lblnombremedicamento.Name = "lblnombremedicamento";
-            this.lblnombremedicamento.Size = new System.Drawing.Size(113, 13);
+            this.lblnombremedicamento.Size = new System.Drawing.Size(162, 17);
             this.lblnombremedicamento.TabIndex = 3;
             this.lblnombremedicamento.Text = "Nombre medicamento:";
             // 
             // lblcatmedicamento
             // 
             this.lblcatmedicamento.AutoSize = true;
-            this.lblcatmedicamento.Location = new System.Drawing.Point(61, 185);
+            this.lblcatmedicamento.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblcatmedicamento.ForeColor = System.Drawing.Color.White;
+            this.lblcatmedicamento.Location = new System.Drawing.Point(12, 181);
             this.lblcatmedicamento.Name = "lblcatmedicamento";
-            this.lblcatmedicamento.Size = new System.Drawing.Size(94, 13);
+            this.lblcatmedicamento.Size = new System.Drawing.Size(133, 17);
             this.lblcatmedicamento.TabIndex = 4;
             this.lblcatmedicamento.Text = "Categoría médico:";
             // 
             // lblviadeadmin
             // 
             this.lblviadeadmin.AutoSize = true;
-            this.lblviadeadmin.Location = new System.Drawing.Point(549, 137);
+            this.lblviadeadmin.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblviadeadmin.ForeColor = System.Drawing.Color.White;
+            this.lblviadeadmin.Location = new System.Drawing.Point(560, 134);
             this.lblviadeadmin.Name = "lblviadeadmin";
-            this.lblviadeadmin.Size = new System.Drawing.Size(108, 13);
+            this.lblviadeadmin.Size = new System.Drawing.Size(151, 17);
             this.lblviadeadmin.TabIndex = 5;
             this.lblviadeadmin.Text = "Via de admnistración:";
             // 
             // lbldosis
             // 
             this.lbldosis.AutoSize = true;
-            this.lbldosis.Location = new System.Drawing.Point(366, 138);
+            this.lbldosis.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbldosis.ForeColor = System.Drawing.Color.White;
+            this.lbldosis.Location = new System.Drawing.Point(344, 137);
             this.lbldosis.Name = "lbldosis";
-            this.lbldosis.Size = new System.Drawing.Size(36, 13);
+            this.lbldosis.Size = new System.Drawing.Size(44, 17);
             this.lbldosis.TabIndex = 6;
             this.lbldosis.Text = "Dosis:";
             // 
             // lblestado
             // 
             this.lblestado.AutoSize = true;
-            this.lblestado.Location = new System.Drawing.Point(366, 185);
+            this.lblestado.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblestado.ForeColor = System.Drawing.Color.White;
+            this.lblestado.Location = new System.Drawing.Point(344, 178);
             this.lblestado.Name = "lblestado";
-            this.lblestado.Size = new System.Drawing.Size(43, 13);
+            this.lblestado.Size = new System.Drawing.Size(56, 17);
             this.lblestado.TabIndex = 7;
             this.lblestado.Text = "Estado:";
             // 
@@ -157,6 +173,7 @@
             this.cuDataGridD1.AlDatosEntrada = ((System.Collections.ArrayList)(resources.GetObject("cuDataGridD1.AlDatosEntrada")));
             this.cuDataGridD1.alObtenerCampos = ((System.Collections.ArrayList)(resources.GetObject("cuDataGridD1.alObtenerCampos")));
             this.cuDataGridD1.AutoSize = true;
+            this.cuDataGridD1.BackColor = System.Drawing.Color.DarkGray;
             this.cuDataGridD1.ICampo = 0;
             this.cuDataGridD1.Location = new System.Drawing.Point(6, 6);
             this.cuDataGridD1.Name = "cuDataGridD1";
@@ -181,6 +198,7 @@
             this.cuDataGridD2.AlDatosEntrada = ((System.Collections.ArrayList)(resources.GetObject("cuDataGridD2.AlDatosEntrada")));
             this.cuDataGridD2.alObtenerCampos = ((System.Collections.ArrayList)(resources.GetObject("cuDataGridD2.alObtenerCampos")));
             this.cuDataGridD2.AutoSize = true;
+            this.cuDataGridD2.BackColor = System.Drawing.Color.DarkGray;
             this.cuDataGridD2.ICampo = 0;
             this.cuDataGridD2.Location = new System.Drawing.Point(6, 6);
             this.cuDataGridD2.Name = "cuDataGridD2";
@@ -192,9 +210,10 @@
             // navegador1
             // 
             this.navegador1.alDatosEntrada = ((System.Collections.ArrayList)(resources.GetObject("navegador1.alDatosEntrada")));
+            this.navegador1.BackColor = System.Drawing.Color.Transparent;
             this.navegador1.bEjecutarEvento = true;
             this.navegador1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.navegador1.Location = new System.Drawing.Point(112, 12);
+            this.navegador1.Location = new System.Drawing.Point(89, 12);
             this.navegador1.Name = "navegador1";
             this.navegador1.Size = new System.Drawing.Size(598, 54);
             this.navegador1.sNombreTabla = "receta_medica";
@@ -214,7 +233,7 @@
             // 
             this.txtnom_med.Location = new System.Drawing.Point(180, 130);
             this.txtnom_med.Name = "txtnom_med";
-            this.txtnom_med.Size = new System.Drawing.Size(168, 20);
+            this.txtnom_med.Size = new System.Drawing.Size(142, 20);
             this.txtnom_med.TabIndex = 11;
             this.txtnom_med.Tag = "nom_med";
             // 
@@ -230,7 +249,7 @@
             // 
             // txtid_medico
             // 
-            this.txtid_medico.Location = new System.Drawing.Point(664, 85);
+            this.txtid_medico.Location = new System.Drawing.Point(717, 86);
             this.txtid_medico.Name = "txtid_medico";
             this.txtid_medico.Size = new System.Drawing.Size(61, 20);
             this.txtid_medico.TabIndex = 13;
@@ -246,9 +265,9 @@
             // 
             // txtvia_de_administracion
             // 
-            this.txtvia_de_administracion.Location = new System.Drawing.Point(664, 157);
+            this.txtvia_de_administracion.Location = new System.Drawing.Point(829, 131);
             this.txtvia_de_administracion.Name = "txtvia_de_administracion";
-            this.txtvia_de_administracion.Size = new System.Drawing.Size(133, 20);
+            this.txtvia_de_administracion.Size = new System.Drawing.Size(16, 20);
             this.txtvia_de_administracion.TabIndex = 15;
             this.txtvia_de_administracion.Tag = "via_de_administracion";
             this.txtvia_de_administracion.Visible = false;
@@ -297,7 +316,7 @@
             "Traumatólogo"});
             this.cbocatmedico.Location = new System.Drawing.Point(180, 177);
             this.cbocatmedico.Name = "cbocatmedico";
-            this.cbocatmedico.Size = new System.Drawing.Size(168, 21);
+            this.cbocatmedico.Size = new System.Drawing.Size(142, 21);
             this.cbocatmedico.TabIndex = 19;
             this.cbocatmedico.SelectedIndexChanged += new System.EventHandler(this.cbocatmedico_SelectedIndexChanged);
             // 
@@ -309,9 +328,9 @@
             "Oral",
             "Ampolla",
             "Inyectado"});
-            this.cbovia_de_administracion.Location = new System.Drawing.Point(664, 130);
+            this.cbovia_de_administracion.Location = new System.Drawing.Point(717, 130);
             this.cbovia_de_administracion.Name = "cbovia_de_administracion";
-            this.cbovia_de_administracion.Size = new System.Drawing.Size(133, 21);
+            this.cbovia_de_administracion.Size = new System.Drawing.Size(106, 21);
             this.cbovia_de_administracion.TabIndex = 20;
             this.cbovia_de_administracion.Tag = "";
             this.cbovia_de_administracion.SelectedIndexChanged += new System.EventHandler(this.comboBox3_SelectedIndexChanged);
@@ -320,7 +339,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(811, 475);
+            this.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.ClientSize = new System.Drawing.Size(857, 475);
             this.Controls.Add(this.cbovia_de_administracion);
             this.Controls.Add(this.cbocatmedico);
             this.Controls.Add(this.cboEstado);
@@ -342,7 +362,8 @@
             this.Controls.Add(this.lblidpaciente);
             this.Controls.Add(this.lblmedico);
             this.Controls.Add(this.lblrecetamedica);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "wfRecetaMedica";

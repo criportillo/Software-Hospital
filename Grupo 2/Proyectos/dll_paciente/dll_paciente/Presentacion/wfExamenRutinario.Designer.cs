@@ -69,9 +69,10 @@
             // navegador1
             // 
             this.navegador1.alDatosEntrada = ((System.Collections.ArrayList)(resources.GetObject("navegador1.alDatosEntrada")));
+            this.navegador1.BackColor = System.Drawing.Color.Transparent;
             this.navegador1.bEjecutarEvento = true;
             this.navegador1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.navegador1.Location = new System.Drawing.Point(81, 12);
+            this.navegador1.Location = new System.Drawing.Point(122, 12);
             this.navegador1.Name = "navegador1";
             this.navegador1.Size = new System.Drawing.Size(598, 54);
             this.navegador1.sNombreTabla = "examen_rutinario";
@@ -81,106 +82,128 @@
             // lblid_exrutinario
             // 
             this.lblid_exrutinario.AutoSize = true;
+            this.lblid_exrutinario.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblid_exrutinario.ForeColor = System.Drawing.Color.White;
             this.lblid_exrutinario.Location = new System.Drawing.Point(29, 97);
             this.lblid_exrutinario.Name = "lblid_exrutinario";
-            this.lblid_exrutinario.Size = new System.Drawing.Size(102, 13);
+            this.lblid_exrutinario.Size = new System.Drawing.Size(137, 17);
             this.lblid_exrutinario.TabIndex = 1;
             this.lblid_exrutinario.Text = "ID Examen rutinario:";
             // 
             // lblpresion
             // 
             this.lblpresion.AutoSize = true;
+            this.lblpresion.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblpresion.ForeColor = System.Drawing.Color.White;
             this.lblpresion.Location = new System.Drawing.Point(29, 139);
             this.lblpresion.Name = "lblpresion";
-            this.lblpresion.Size = new System.Drawing.Size(45, 13);
+            this.lblpresion.Size = new System.Drawing.Size(57, 17);
             this.lblpresion.TabIndex = 2;
             this.lblpresion.Text = "Presión:";
             // 
             // lblcolesterol
             // 
             this.lblcolesterol.AutoSize = true;
+            this.lblcolesterol.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblcolesterol.ForeColor = System.Drawing.Color.White;
             this.lblcolesterol.Location = new System.Drawing.Point(29, 174);
             this.lblcolesterol.Name = "lblcolesterol";
-            this.lblcolesterol.Size = new System.Drawing.Size(56, 13);
+            this.lblcolesterol.Size = new System.Drawing.Size(77, 17);
             this.lblcolesterol.TabIndex = 3;
             this.lblcolesterol.Text = "Colesterol:";
             // 
             // lblglucosa
             // 
             this.lblglucosa.AutoSize = true;
+            this.lblglucosa.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblglucosa.ForeColor = System.Drawing.Color.White;
             this.lblglucosa.Location = new System.Drawing.Point(28, 209);
             this.lblglucosa.Name = "lblglucosa";
-            this.lblglucosa.Size = new System.Drawing.Size(49, 13);
+            this.lblglucosa.Size = new System.Drawing.Size(65, 17);
             this.lblglucosa.TabIndex = 4;
             this.lblglucosa.Text = "Glucosa:";
             // 
             // lblestatura
             // 
             this.lblestatura.AutoSize = true;
-            this.lblestatura.Location = new System.Drawing.Point(297, 136);
+            this.lblestatura.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblestatura.ForeColor = System.Drawing.Color.White;
+            this.lblestatura.Location = new System.Drawing.Point(274, 133);
             this.lblestatura.Name = "lblestatura";
-            this.lblestatura.Size = new System.Drawing.Size(49, 13);
+            this.lblestatura.Size = new System.Drawing.Size(64, 17);
             this.lblestatura.TabIndex = 5;
             this.lblestatura.Text = "Estatura:";
             // 
             // lblpeso
             // 
             this.lblpeso.AutoSize = true;
-            this.lblpeso.Location = new System.Drawing.Point(297, 173);
+            this.lblpeso.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblpeso.ForeColor = System.Drawing.Color.White;
+            this.lblpeso.Location = new System.Drawing.Point(274, 173);
             this.lblpeso.Name = "lblpeso";
-            this.lblpeso.Size = new System.Drawing.Size(34, 13);
+            this.lblpeso.Size = new System.Drawing.Size(42, 17);
             this.lblpeso.TabIndex = 6;
             this.lblpeso.Text = "Peso:";
             // 
             // lblestadocavidadbucal
             // 
             this.lblestadocavidadbucal.AutoSize = true;
-            this.lblestadocavidadbucal.Location = new System.Drawing.Point(296, 209);
+            this.lblestadocavidadbucal.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblestadocavidadbucal.ForeColor = System.Drawing.Color.White;
+            this.lblestadocavidadbucal.Location = new System.Drawing.Point(273, 206);
             this.lblestadocavidadbucal.Name = "lblestadocavidadbucal";
-            this.lblestadocavidadbucal.Size = new System.Drawing.Size(113, 13);
+            this.lblestadocavidadbucal.Size = new System.Drawing.Size(156, 17);
             this.lblestadocavidadbucal.TabIndex = 7;
             this.lblestadocavidadbucal.Text = "Estado cavidad bucal:";
             // 
             // lblestadooido
             // 
             this.lblestadooido.AutoSize = true;
-            this.lblestadooido.Location = new System.Drawing.Point(535, 206);
+            this.lblestadooido.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblestadooido.ForeColor = System.Drawing.Color.White;
+            this.lblestadooido.Location = new System.Drawing.Point(554, 206);
             this.lblestadooido.Name = "lblestadooido";
-            this.lblestadooido.Size = new System.Drawing.Size(70, 13);
+            this.lblestadooido.Size = new System.Drawing.Size(92, 17);
             this.lblestadooido.TabIndex = 8;
             this.lblestadooido.Text = "Estado Oído:";
             // 
             // lblidpaciente
             // 
             this.lblidpaciente.AutoSize = true;
-            this.lblidpaciente.Location = new System.Drawing.Point(297, 97);
+            this.lblidpaciente.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblidpaciente.ForeColor = System.Drawing.Color.White;
+            this.lblidpaciente.Location = new System.Drawing.Point(274, 94);
             this.lblidpaciente.Name = "lblidpaciente";
-            this.lblidpaciente.Size = new System.Drawing.Size(66, 13);
+            this.lblidpaciente.Size = new System.Drawing.Size(86, 17);
             this.lblidpaciente.TabIndex = 9;
             this.lblidpaciente.Text = "ID Paciente:";
             // 
             // lblidmedico
             // 
             this.lblidmedico.AutoSize = true;
-            this.lblidmedico.Location = new System.Drawing.Point(536, 97);
+            this.lblidmedico.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblidmedico.ForeColor = System.Drawing.Color.White;
+            this.lblidmedico.Location = new System.Drawing.Point(555, 97);
             this.lblidmedico.Name = "lblidmedico";
-            this.lblidmedico.Size = new System.Drawing.Size(58, 13);
+            this.lblidmedico.Size = new System.Drawing.Size(79, 17);
             this.lblidmedico.TabIndex = 10;
             this.lblidmedico.Text = "ID médico:";
             // 
             // lbltipodesangre
             // 
             this.lbltipodesangre.AutoSize = true;
-            this.lbltipodesangre.Location = new System.Drawing.Point(536, 127);
+            this.lbltipodesangre.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbltipodesangre.ForeColor = System.Drawing.Color.White;
+            this.lbltipodesangre.Location = new System.Drawing.Point(554, 127);
             this.lbltipodesangre.Name = "lbltipodesangre";
-            this.lbltipodesangre.Size = new System.Drawing.Size(81, 13);
+            this.lbltipodesangre.Size = new System.Drawing.Size(106, 17);
             this.lbltipodesangre.TabIndex = 11;
             this.lbltipodesangre.Text = "Tipo de sangre:";
             this.lbltipodesangre.Click += new System.EventHandler(this.lbltipodesangre_Click);
             // 
             // txtid_exrutinario
             // 
-            this.txtid_exrutinario.Location = new System.Drawing.Point(138, 97);
+            this.txtid_exrutinario.Location = new System.Drawing.Point(172, 97);
             this.txtid_exrutinario.Name = "txtid_exrutinario";
             this.txtid_exrutinario.Size = new System.Drawing.Size(41, 20);
             this.txtid_exrutinario.TabIndex = 12;
@@ -188,7 +211,7 @@
             // 
             // txtpresion
             // 
-            this.txtpresion.Location = new System.Drawing.Point(138, 132);
+            this.txtpresion.Location = new System.Drawing.Point(172, 132);
             this.txtpresion.Name = "txtpresion";
             this.txtpresion.Size = new System.Drawing.Size(100, 20);
             this.txtpresion.TabIndex = 13;
@@ -196,7 +219,7 @@
             // 
             // txtcolesterol
             // 
-            this.txtcolesterol.Location = new System.Drawing.Point(138, 167);
+            this.txtcolesterol.Location = new System.Drawing.Point(172, 167);
             this.txtcolesterol.Name = "txtcolesterol";
             this.txtcolesterol.Size = new System.Drawing.Size(100, 20);
             this.txtcolesterol.TabIndex = 14;
@@ -204,7 +227,7 @@
             // 
             // txtglucosa
             // 
-            this.txtglucosa.Location = new System.Drawing.Point(137, 202);
+            this.txtglucosa.Location = new System.Drawing.Point(171, 202);
             this.txtglucosa.Name = "txtglucosa";
             this.txtglucosa.Size = new System.Drawing.Size(100, 20);
             this.txtglucosa.TabIndex = 15;
@@ -212,7 +235,7 @@
             // 
             // txtid_pacientes
             // 
-            this.txtid_pacientes.Location = new System.Drawing.Point(416, 89);
+            this.txtid_pacientes.Location = new System.Drawing.Point(435, 89);
             this.txtid_pacientes.Name = "txtid_pacientes";
             this.txtid_pacientes.Size = new System.Drawing.Size(33, 20);
             this.txtid_pacientes.TabIndex = 16;
@@ -220,7 +243,7 @@
             // 
             // txtestatura
             // 
-            this.txtestatura.Location = new System.Drawing.Point(416, 132);
+            this.txtestatura.Location = new System.Drawing.Point(435, 132);
             this.txtestatura.Name = "txtestatura";
             this.txtestatura.Size = new System.Drawing.Size(100, 20);
             this.txtestatura.TabIndex = 17;
@@ -228,7 +251,7 @@
             // 
             // txtpeso
             // 
-            this.txtpeso.Location = new System.Drawing.Point(416, 169);
+            this.txtpeso.Location = new System.Drawing.Point(435, 169);
             this.txtpeso.Name = "txtpeso";
             this.txtpeso.Size = new System.Drawing.Size(100, 20);
             this.txtpeso.TabIndex = 18;
@@ -236,7 +259,7 @@
             // 
             // txtestado_cavidad_bucal
             // 
-            this.txtestado_cavidad_bucal.Location = new System.Drawing.Point(415, 202);
+            this.txtestado_cavidad_bucal.Location = new System.Drawing.Point(434, 202);
             this.txtestado_cavidad_bucal.Multiline = true;
             this.txtestado_cavidad_bucal.Name = "txtestado_cavidad_bucal";
             this.txtestado_cavidad_bucal.Size = new System.Drawing.Size(112, 65);
@@ -245,7 +268,7 @@
             // 
             // txtid_medico
             // 
-            this.txtid_medico.Location = new System.Drawing.Point(622, 89);
+            this.txtid_medico.Location = new System.Drawing.Point(657, 94);
             this.txtid_medico.Name = "txtid_medico";
             this.txtid_medico.Size = new System.Drawing.Size(36, 20);
             this.txtid_medico.TabIndex = 20;
@@ -253,7 +276,7 @@
             // 
             // txtestado_oido
             // 
-            this.txtestado_oido.Location = new System.Drawing.Point(622, 206);
+            this.txtestado_oido.Location = new System.Drawing.Point(657, 211);
             this.txtestado_oido.Multiline = true;
             this.txtestado_oido.Name = "txtestado_oido";
             this.txtestado_oido.Size = new System.Drawing.Size(121, 61);
@@ -273,7 +296,7 @@
             "AB-",
             "O+",
             "O-"});
-            this.cbosangre.Location = new System.Drawing.Point(623, 119);
+            this.cbosangre.Location = new System.Drawing.Point(658, 124);
             this.cbosangre.Name = "cbosangre";
             this.cbosangre.Size = new System.Drawing.Size(121, 21);
             this.cbosangre.TabIndex = 22;
@@ -295,7 +318,7 @@
             this.tbppaciente.Location = new System.Drawing.Point(4, 22);
             this.tbppaciente.Name = "tbppaciente";
             this.tbppaciente.Padding = new System.Windows.Forms.Padding(3);
-            this.tbppaciente.Size = new System.Drawing.Size(741, 233);
+            this.tbppaciente.Size = new System.Drawing.Size(733, 233);
             this.tbppaciente.TabIndex = 0;
             this.tbppaciente.Text = "Paciente";
             this.tbppaciente.UseVisualStyleBackColor = true;
@@ -305,6 +328,7 @@
             this.cuDataGridD1.AlDatosEntrada = ((System.Collections.ArrayList)(resources.GetObject("cuDataGridD1.AlDatosEntrada")));
             this.cuDataGridD1.alObtenerCampos = ((System.Collections.ArrayList)(resources.GetObject("cuDataGridD1.alObtenerCampos")));
             this.cuDataGridD1.AutoSize = true;
+            this.cuDataGridD1.BackColor = System.Drawing.Color.DarkGray;
             this.cuDataGridD1.ICampo = 0;
             this.cuDataGridD1.Location = new System.Drawing.Point(6, 6);
             this.cuDataGridD1.Name = "cuDataGridD1";
@@ -329,6 +353,7 @@
             this.cuDataGridD2.AlDatosEntrada = ((System.Collections.ArrayList)(resources.GetObject("cuDataGridD2.AlDatosEntrada")));
             this.cuDataGridD2.alObtenerCampos = ((System.Collections.ArrayList)(resources.GetObject("cuDataGridD2.alObtenerCampos")));
             this.cuDataGridD2.AutoSize = true;
+            this.cuDataGridD2.BackColor = System.Drawing.Color.DarkGray;
             this.cuDataGridD2.ICampo = 0;
             this.cuDataGridD2.Location = new System.Drawing.Point(6, 7);
             this.cuDataGridD2.Name = "cuDataGridD2";
@@ -339,7 +364,7 @@
             // 
             // txtsangre
             // 
-            this.txtsangre.Location = new System.Drawing.Point(750, 119);
+            this.txtsangre.Location = new System.Drawing.Point(785, 124);
             this.txtsangre.Name = "txtsangre";
             this.txtsangre.Size = new System.Drawing.Size(31, 20);
             this.txtsangre.TabIndex = 24;
@@ -350,9 +375,11 @@
             // lblestado
             // 
             this.lblestado.AutoSize = true;
-            this.lblestado.Location = new System.Drawing.Point(536, 169);
+            this.lblestado.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblestado.ForeColor = System.Drawing.Color.White;
+            this.lblestado.Location = new System.Drawing.Point(555, 169);
             this.lblestado.Name = "lblestado";
-            this.lblestado.Size = new System.Drawing.Size(43, 13);
+            this.lblestado.Size = new System.Drawing.Size(56, 17);
             this.lblestado.TabIndex = 25;
             this.lblestado.Tag = "estado";
             this.lblestado.Text = "Estado:";
@@ -364,7 +391,7 @@
             this.cboestado.Items.AddRange(new object[] {
             "Activado",
             "Desactivado"});
-            this.cboestado.Location = new System.Drawing.Point(622, 165);
+            this.cboestado.Location = new System.Drawing.Point(657, 170);
             this.cboestado.Name = "cboestado";
             this.cboestado.Size = new System.Drawing.Size(121, 21);
             this.cboestado.TabIndex = 27;
@@ -372,7 +399,7 @@
             // 
             // txtestado
             // 
-            this.txtestado.Location = new System.Drawing.Point(750, 166);
+            this.txtestado.Location = new System.Drawing.Point(785, 171);
             this.txtestado.Name = "txtestado";
             this.txtestado.Size = new System.Drawing.Size(32, 20);
             this.txtestado.TabIndex = 26;
@@ -384,7 +411,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(793, 548);
+            this.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.ClientSize = new System.Drawing.Size(818, 548);
             this.Controls.Add(this.cboestado);
             this.Controls.Add(this.txtestado);
             this.Controls.Add(this.lblestado);
@@ -413,7 +441,8 @@
             this.Controls.Add(this.lblpresion);
             this.Controls.Add(this.lblid_exrutinario);
             this.Controls.Add(this.navegador1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "wfExamenRutinario";

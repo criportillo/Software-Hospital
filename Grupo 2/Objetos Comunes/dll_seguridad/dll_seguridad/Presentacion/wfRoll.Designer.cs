@@ -48,9 +48,10 @@
             // navegador1
             // 
             this.navegador1.alDatosEntrada = ((System.Collections.ArrayList)(resources.GetObject("navegador1.alDatosEntrada")));
+            this.navegador1.BackColor = System.Drawing.Color.Transparent;
             this.navegador1.bEjecutarEvento = true;
             this.navegador1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.navegador1.Location = new System.Drawing.Point(53, 12);
+            this.navegador1.Location = new System.Drawing.Point(70, 12);
             this.navegador1.Name = "navegador1";
             this.navegador1.Size = new System.Drawing.Size(598, 54);
             this.navegador1.sNombreTabla = "roll";
@@ -65,15 +66,17 @@
             // lblIDroll
             // 
             this.lblIDroll.AutoSize = true;
+            this.lblIDroll.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblIDroll.ForeColor = System.Drawing.Color.White;
             this.lblIDroll.Location = new System.Drawing.Point(25, 89);
             this.lblIDroll.Name = "lblIDroll";
-            this.lblIDroll.Size = new System.Drawing.Size(39, 13);
+            this.lblIDroll.Size = new System.Drawing.Size(48, 17);
             this.lblIDroll.TabIndex = 10;
             this.lblIDroll.Text = "ID Roll";
             // 
             // txtIDRoll
             // 
-            this.txtIDRoll.Location = new System.Drawing.Point(113, 82);
+            this.txtIDRoll.Location = new System.Drawing.Point(139, 81);
             this.txtIDRoll.Name = "txtIDRoll";
             this.txtIDRoll.Size = new System.Drawing.Size(25, 20);
             this.txtIDRoll.TabIndex = 11;
@@ -82,15 +85,17 @@
             // lblNombre
             // 
             this.lblNombre.AutoSize = true;
-            this.lblNombre.Location = new System.Drawing.Point(231, 90);
+            this.lblNombre.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNombre.ForeColor = System.Drawing.Color.White;
+            this.lblNombre.Location = new System.Drawing.Point(245, 89);
             this.lblNombre.Name = "lblNombre";
-            this.lblNombre.Size = new System.Drawing.Size(65, 13);
+            this.lblNombre.Size = new System.Drawing.Size(88, 17);
             this.lblNombre.TabIndex = 12;
             this.lblNombre.Text = "Nombre Roll";
             // 
             // txtnomroll
             // 
-            this.txtnomroll.Location = new System.Drawing.Point(337, 84);
+            this.txtnomroll.Location = new System.Drawing.Point(386, 85);
             this.txtnomroll.Name = "txtnomroll";
             this.txtnomroll.Size = new System.Drawing.Size(100, 20);
             this.txtnomroll.TabIndex = 13;
@@ -99,15 +104,17 @@
             // lbldesc
             // 
             this.lbldesc.AutoSize = true;
-            this.lbldesc.Location = new System.Drawing.Point(467, 134);
+            this.lbldesc.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbldesc.ForeColor = System.Drawing.Color.White;
+            this.lbldesc.Location = new System.Drawing.Point(493, 132);
             this.lbldesc.Name = "lbldesc";
-            this.lbldesc.Size = new System.Drawing.Size(63, 13);
+            this.lbldesc.Size = new System.Drawing.Size(83, 17);
             this.lbldesc.TabIndex = 14;
             this.lbldesc.Text = "Descripción";
             // 
             // txtdesc
             // 
-            this.txtdesc.Location = new System.Drawing.Point(536, 127);
+            this.txtdesc.Location = new System.Drawing.Point(582, 126);
             this.txtdesc.Name = "txtdesc";
             this.txtdesc.Size = new System.Drawing.Size(100, 20);
             this.txtdesc.TabIndex = 15;
@@ -116,24 +123,28 @@
             // lblfecc
             // 
             this.lblfecc.AutoSize = true;
+            this.lblfecc.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblfecc.ForeColor = System.Drawing.Color.White;
             this.lblfecc.Location = new System.Drawing.Point(25, 134);
             this.lblfecc.Name = "lblfecc";
-            this.lblfecc.Size = new System.Drawing.Size(82, 13);
+            this.lblfecc.Size = new System.Drawing.Size(111, 17);
             this.lblfecc.TabIndex = 16;
             this.lblfecc.Text = "Fecha Creación";
             // 
             // lblfecm
             // 
             this.lblfecm.AutoSize = true;
-            this.lblfecm.Location = new System.Drawing.Point(231, 134);
+            this.lblfecm.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblfecm.ForeColor = System.Drawing.Color.White;
+            this.lblfecm.Location = new System.Drawing.Point(245, 133);
             this.lblfecm.Name = "lblfecm";
-            this.lblfecm.Size = new System.Drawing.Size(100, 13);
+            this.lblfecm.Size = new System.Drawing.Size(135, 17);
             this.lblfecm.TabIndex = 17;
             this.lblfecm.Text = "Fecha Modificación";
             // 
             // txtfecc
             // 
-            this.txtfecc.Location = new System.Drawing.Point(113, 127);
+            this.txtfecc.Location = new System.Drawing.Point(139, 130);
             this.txtfecc.Name = "txtfecc";
             this.txtfecc.Size = new System.Drawing.Size(100, 20);
             this.txtfecc.TabIndex = 18;
@@ -141,7 +152,7 @@
             // 
             // txtfecm
             // 
-            this.txtfecm.Location = new System.Drawing.Point(337, 127);
+            this.txtfecm.Location = new System.Drawing.Point(386, 126);
             this.txtfecm.Name = "txtfecm";
             this.txtfecm.Size = new System.Drawing.Size(100, 20);
             this.txtfecm.TabIndex = 19;
@@ -150,15 +161,17 @@
             // lblestadoRoll
             // 
             this.lblestadoRoll.AutoSize = true;
-            this.lblestadoRoll.Location = new System.Drawing.Point(467, 91);
+            this.lblestadoRoll.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblestadoRoll.ForeColor = System.Drawing.Color.White;
+            this.lblestadoRoll.Location = new System.Drawing.Point(493, 89);
             this.lblestadoRoll.Name = "lblestadoRoll";
-            this.lblestadoRoll.Size = new System.Drawing.Size(40, 13);
+            this.lblestadoRoll.Size = new System.Drawing.Size(52, 17);
             this.lblestadoRoll.TabIndex = 20;
             this.lblestadoRoll.Text = "Estado";
             // 
             // txtestado
             // 
-            this.txtestado.Location = new System.Drawing.Point(636, 83);
+            this.txtestado.Location = new System.Drawing.Point(682, 81);
             this.txtestado.Name = "txtestado";
             this.txtestado.Size = new System.Drawing.Size(23, 20);
             this.txtestado.TabIndex = 21;
@@ -173,7 +186,7 @@
             this.cbestado.Items.AddRange(new object[] {
             "Activado",
             "Desactivado"});
-            this.cbestado.Location = new System.Drawing.Point(536, 82);
+            this.cbestado.Location = new System.Drawing.Point(582, 80);
             this.cbestado.Name = "cbestado";
             this.cbestado.Size = new System.Drawing.Size(94, 21);
             this.cbestado.TabIndex = 22;
@@ -183,6 +196,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.HotTrack;
             this.ClientSize = new System.Drawing.Size(735, 178);
             this.Controls.Add(this.cbestado);
             this.Controls.Add(this.txtestado);
@@ -198,6 +212,7 @@
             this.Controls.Add(this.txtIDRoll);
             this.Controls.Add(this.lblIDroll);
             this.Controls.Add(this.navegador1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "wfRoll";
             this.Text = "wfRoll";
             this.Load += new System.EventHandler(this.wfRoll_Load);

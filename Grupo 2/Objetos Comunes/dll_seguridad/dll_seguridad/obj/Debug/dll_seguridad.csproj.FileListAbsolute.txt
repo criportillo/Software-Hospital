@@ -128,3 +128,4 @@ C:\Users\Jessy\Desktop\dll_seguridad\dll_seguridad\obj\Debug\dll_seguridad.cspro
 C:\Users\Jessy\Desktop\dll_seguridad\dll_seguridad\bin\Debug\dll_seguridad.dll.config
 C:\Users\orochi\Desktop\dll_seguridad\dll_seguridad\bin\Debug\dll_seguridad.dll.config
 C:\Users\orochi\Desktop\dll_seguridad\dll_seguridad\obj\Debug\dll_seguridad.csprojResolveAssemblyReference.cache
+C:\Users\Jessy\Desktop\dll_seguridad\dll_seguridad\bin\Debug\dll_bitacora.dll
