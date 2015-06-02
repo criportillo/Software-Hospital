@@ -23,8 +23,8 @@ namespace dll_medico.Presentacion
             String[,] ScadenaPacientes = {
                                              {"id_pacientes","Codigo","true"},
                                              {"nombre_paciente","nombre","true"},                                            
-                                             {"primer_apellido","Apellido","true"},
-                                             {"segundo_apellido","Segundo_Apellido","false"},
+                                             {"primer_apellido","PrimerApellido","true"},
+                                             {"segundo_apellido","SegundoApellido","false"},
                                              {"direccion_paciente","Direccion","false"},
                                              {"telefono_paciente","Telefono","false"},
                                              {"sexo","Sexo","false"},
@@ -39,8 +39,8 @@ namespace dll_medico.Presentacion
                                              {"id_tipo_examen","Codigo","true"},
                                              {"nombre_tipo_examen","Nombre","true"},
                                              {"descripcion_examen","Descripcion","true"},
-                                             {"fecha_creacion","Fecha_Creacion","true"},
-                                             {"fecha_modificacion","Fecha_Modificacion","false"},
+                                             {"fecha_creacion","FechaCreac","true"},
+                                             {"fecha_modificacion","FechaModif","false"},
                                              {"estado","Estado","false"},
 
                                            };
@@ -49,8 +49,8 @@ namespace dll_medico.Presentacion
             String[,] ScadenaMedico = {
                                     {"id_medico","Codigo","true"},
                                     {"nombre_medico","Nombre","true"},
-                                    {"priimer_apellido_medico","Apellido","true"},
-                                    {"medico_segundo_apellido","Segundo_Apellido","true"},
+                                    {"priimer_apellido_medico","PrimerApellido","true"},
+                                    {"medico_segundo_apellido","SegundoApellido","true"},
                                     {"fecha_ingreso","Fecha","true"},
                                     {"estado","Estado","false"},
                                 };

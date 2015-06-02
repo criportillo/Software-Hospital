@@ -149,7 +149,7 @@
             this.tbcdetalleexamen.Controls.Add(this.tbppaciente);
             this.tbcdetalleexamen.Controls.Add(this.tbptipoexamen);
             this.tbcdetalleexamen.Controls.Add(this.tbpmedico);
-            this.tbcdetalleexamen.Location = new System.Drawing.Point(59, 174);
+            this.tbcdetalleexamen.Location = new System.Drawing.Point(47, 174);
             this.tbcdetalleexamen.Name = "tbcdetalleexamen";
             this.tbcdetalleexamen.SelectedIndex = 0;
             this.tbcdetalleexamen.Size = new System.Drawing.Size(534, 173);
