@@ -47,8 +47,8 @@ namespace dll_medico.Presentacion
             String[,] ScadenaMedico = {
                                     {"id_medico","Codigo","true"},
                                     {"nombre_medico","Nombre","true"},
-                                    {"priimer_apellido_medico","PrimerApellido","true"},
-                                    {"medico_segundo_apellido","SegundoApellido","true"},
+                                    {"priimer_apellido_medico","Apellido","true"},
+                                    {"medico_segundo_apellido","Segundo_Apellido","true"},
                                     {"fecha_ingreso","Fecha","true"},
                                     {"estado","Estado","false"},
                                 };

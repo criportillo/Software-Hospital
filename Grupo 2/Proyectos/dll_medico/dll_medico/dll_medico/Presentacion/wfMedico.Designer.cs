@@ -100,9 +100,8 @@
             this.lblsegundoapellido.ForeColor = System.Drawing.Color.White;
             this.lblsegundoapellido.Location = new System.Drawing.Point(59, 180);
             this.lblsegundoapellido.Name = "lblsegundoapellido";
-            this.lblsegundoapellido.Size = new System.Drawing.Size(122, 17);
+            this.lblsegundoapellido.Size = new System.Drawing.Size(0, 17);
             this.lblsegundoapellido.TabIndex = 4;
-            this.lblsegundoapellido.Text = "Segundo Apellido";
             // 
             // lblfechaingreso
             // 
