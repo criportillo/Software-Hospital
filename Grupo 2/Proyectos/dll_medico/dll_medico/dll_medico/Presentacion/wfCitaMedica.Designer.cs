@@ -46,17 +46,17 @@
             this.txtEstado = new System.Windows.Forms.TextBox();
             this.cboEstado = new System.Windows.Forms.ComboBox();
             this.dtpFechaCita = new System.Windows.Forms.DateTimePicker();
-            this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.cuDataGridD1 = new dll_bitacora.Presentacion.cuDataGridD();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.cuDataGridD2 = new dll_bitacora.Presentacion.cuDataGridD();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.cuDataGridD3 = new dll_bitacora.Presentacion.cuDataGridD();
-            this.tabControl1.SuspendLayout();
-            this.tabPage1.SuspendLayout();
-            this.tabPage2.SuspendLayout();
-            this.tabPage3.SuspendLayout();
+            this.tbccitamedica = new System.Windows.Forms.TabControl();
+            this.tbpusuario = new System.Windows.Forms.TabPage();
+            this.dgvusuario = new dll_bitacora.Presentacion.cuDataGridD();
+            this.tbpmedico = new System.Windows.Forms.TabPage();
+            this.dgvmedico = new dll_bitacora.Presentacion.cuDataGridD();
+            this.tbppaciente = new System.Windows.Forms.TabPage();
+            this.dgvpaciente = new dll_bitacora.Presentacion.cuDataGridD();
+            this.tbccitamedica.SuspendLayout();
+            this.tbpusuario.SuspendLayout();
+            this.tbpmedico.SuspendLayout();
+            this.tbppaciente.SuspendLayout();
             this.SuspendLayout();
             // 
             // navegador1
@@ -242,91 +242,91 @@
             this.dtpFechaCita.TabIndex = 16;
             this.dtpFechaCita.ValueChanged += new System.EventHandler(this.dtpFechaCita_ValueChanged);
             // 
-            // tabControl1
+            // tbccitamedica
             // 
-            this.tabControl1.Controls.Add(this.tabPage1);
-            this.tabControl1.Controls.Add(this.tabPage2);
-            this.tabControl1.Controls.Add(this.tabPage3);
-            this.tabControl1.Location = new System.Drawing.Point(55, 205);
-            this.tabControl1.Name = "tabControl1";
-            this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(543, 176);
-            this.tabControl1.TabIndex = 17;
+            this.tbccitamedica.Controls.Add(this.tbpusuario);
+            this.tbccitamedica.Controls.Add(this.tbpmedico);
+            this.tbccitamedica.Controls.Add(this.tbppaciente);
+            this.tbccitamedica.Location = new System.Drawing.Point(55, 205);
+            this.tbccitamedica.Name = "tbccitamedica";
+            this.tbccitamedica.SelectedIndex = 0;
+            this.tbccitamedica.Size = new System.Drawing.Size(543, 176);
+            this.tbccitamedica.TabIndex = 17;
             // 
-            // tabPage1
+            // tbpusuario
             // 
-            this.tabPage1.Controls.Add(this.cuDataGridD1);
-            this.tabPage1.Location = new System.Drawing.Point(4, 22);
-            this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(535, 150);
-            this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "Usuario";
-            this.tabPage1.UseVisualStyleBackColor = true;
+            this.tbpusuario.Controls.Add(this.dgvusuario);
+            this.tbpusuario.Location = new System.Drawing.Point(4, 22);
+            this.tbpusuario.Name = "tbpusuario";
+            this.tbpusuario.Padding = new System.Windows.Forms.Padding(3);
+            this.tbpusuario.Size = new System.Drawing.Size(535, 150);
+            this.tbpusuario.TabIndex = 0;
+            this.tbpusuario.Text = "Usuario";
+            this.tbpusuario.UseVisualStyleBackColor = true;
             // 
-            // cuDataGridD1
+            // dgvusuario
             // 
-            this.cuDataGridD1.AlDatosEntrada = ((System.Collections.ArrayList)(resources.GetObject("cuDataGridD1.AlDatosEntrada")));
-            this.cuDataGridD1.alObtenerCampos = ((System.Collections.ArrayList)(resources.GetObject("cuDataGridD1.alObtenerCampos")));
-            this.cuDataGridD1.AutoSize = true;
-            this.cuDataGridD1.BackColor = System.Drawing.Color.DarkGray;
-            this.cuDataGridD1.ICampo = 0;
-            this.cuDataGridD1.Location = new System.Drawing.Point(-4, 3);
-            this.cuDataGridD1.Name = "cuDataGridD1";
-            this.cuDataGridD1.Size = new System.Drawing.Size(543, 151);
-            this.cuDataGridD1.STabla = "usuario";
-            this.cuDataGridD1.TabIndex = 0;
-            this.cuDataGridD1.sdgv_CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.cuDataGridD1_sdgv_CellClick);
+            this.dgvusuario.AlDatosEntrada = ((System.Collections.ArrayList)(resources.GetObject("dgvusuario.AlDatosEntrada")));
+            this.dgvusuario.alObtenerCampos = ((System.Collections.ArrayList)(resources.GetObject("dgvusuario.alObtenerCampos")));
+            this.dgvusuario.AutoSize = true;
+            this.dgvusuario.BackColor = System.Drawing.Color.DarkGray;
+            this.dgvusuario.ICampo = 0;
+            this.dgvusuario.Location = new System.Drawing.Point(-4, 3);
+            this.dgvusuario.Name = "dgvusuario";
+            this.dgvusuario.Size = new System.Drawing.Size(543, 151);
+            this.dgvusuario.STabla = "usuario";
+            this.dgvusuario.TabIndex = 0;
+            this.dgvusuario.sdgv_CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.cuDataGridD1_sdgv_CellClick);
             // 
-            // tabPage2
+            // tbpmedico
             // 
-            this.tabPage2.Controls.Add(this.cuDataGridD2);
-            this.tabPage2.Location = new System.Drawing.Point(4, 22);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(535, 150);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Medico";
-            this.tabPage2.UseVisualStyleBackColor = true;
+            this.tbpmedico.Controls.Add(this.dgvmedico);
+            this.tbpmedico.Location = new System.Drawing.Point(4, 22);
+            this.tbpmedico.Name = "tbpmedico";
+            this.tbpmedico.Padding = new System.Windows.Forms.Padding(3);
+            this.tbpmedico.Size = new System.Drawing.Size(535, 150);
+            this.tbpmedico.TabIndex = 1;
+            this.tbpmedico.Text = "Medico";
+            this.tbpmedico.UseVisualStyleBackColor = true;
             // 
-            // cuDataGridD2
+            // dgvmedico
             // 
-            this.cuDataGridD2.AlDatosEntrada = ((System.Collections.ArrayList)(resources.GetObject("cuDataGridD2.AlDatosEntrada")));
-            this.cuDataGridD2.alObtenerCampos = ((System.Collections.ArrayList)(resources.GetObject("cuDataGridD2.alObtenerCampos")));
-            this.cuDataGridD2.AutoSize = true;
-            this.cuDataGridD2.BackColor = System.Drawing.Color.DarkGray;
-            this.cuDataGridD2.ICampo = 0;
-            this.cuDataGridD2.Location = new System.Drawing.Point(-4, 3);
-            this.cuDataGridD2.Name = "cuDataGridD2";
-            this.cuDataGridD2.Size = new System.Drawing.Size(543, 151);
-            this.cuDataGridD2.STabla = "medico";
-            this.cuDataGridD2.TabIndex = 0;
-            this.cuDataGridD2.sdgv_CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.cuDataGridD2_sdgv_CellClick);
+            this.dgvmedico.AlDatosEntrada = ((System.Collections.ArrayList)(resources.GetObject("dgvmedico.AlDatosEntrada")));
+            this.dgvmedico.alObtenerCampos = ((System.Collections.ArrayList)(resources.GetObject("dgvmedico.alObtenerCampos")));
+            this.dgvmedico.AutoSize = true;
+            this.dgvmedico.BackColor = System.Drawing.Color.DarkGray;
+            this.dgvmedico.ICampo = 0;
+            this.dgvmedico.Location = new System.Drawing.Point(-4, 3);
+            this.dgvmedico.Name = "dgvmedico";
+            this.dgvmedico.Size = new System.Drawing.Size(543, 151);
+            this.dgvmedico.STabla = "medico";
+            this.dgvmedico.TabIndex = 0;
+            this.dgvmedico.sdgv_CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.cuDataGridD2_sdgv_CellClick);
             // 
-            // tabPage3
+            // tbppaciente
             // 
-            this.tabPage3.Controls.Add(this.cuDataGridD3);
-            this.tabPage3.Location = new System.Drawing.Point(4, 22);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(535, 150);
-            this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "Pacientes";
-            this.tabPage3.UseVisualStyleBackColor = true;
+            this.tbppaciente.Controls.Add(this.dgvpaciente);
+            this.tbppaciente.Location = new System.Drawing.Point(4, 22);
+            this.tbppaciente.Name = "tbppaciente";
+            this.tbppaciente.Padding = new System.Windows.Forms.Padding(3);
+            this.tbppaciente.Size = new System.Drawing.Size(535, 150);
+            this.tbppaciente.TabIndex = 2;
+            this.tbppaciente.Text = "Pacientes";
+            this.tbppaciente.UseVisualStyleBackColor = true;
             // 
-            // cuDataGridD3
+            // dgvpaciente
             // 
-            this.cuDataGridD3.AlDatosEntrada = ((System.Collections.ArrayList)(resources.GetObject("cuDataGridD3.AlDatosEntrada")));
-            this.cuDataGridD3.alObtenerCampos = ((System.Collections.ArrayList)(resources.GetObject("cuDataGridD3.alObtenerCampos")));
-            this.cuDataGridD3.AutoSize = true;
-            this.cuDataGridD3.BackColor = System.Drawing.Color.DarkGray;
-            this.cuDataGridD3.ICampo = 0;
-            this.cuDataGridD3.Location = new System.Drawing.Point(-4, 0);
-            this.cuDataGridD3.Name = "cuDataGridD3";
-            this.cuDataGridD3.Size = new System.Drawing.Size(543, 154);
-            this.cuDataGridD3.STabla = "paciente";
-            this.cuDataGridD3.TabIndex = 0;
-            this.cuDataGridD3.sdgv_CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.cuDataGridD3_sdgv_CellClick);
+            this.dgvpaciente.AlDatosEntrada = ((System.Collections.ArrayList)(resources.GetObject("dgvpaciente.AlDatosEntrada")));
+            this.dgvpaciente.alObtenerCampos = ((System.Collections.ArrayList)(resources.GetObject("dgvpaciente.alObtenerCampos")));
+            this.dgvpaciente.AutoSize = true;
+            this.dgvpaciente.BackColor = System.Drawing.Color.DarkGray;
+            this.dgvpaciente.ICampo = 0;
+            this.dgvpaciente.Location = new System.Drawing.Point(-4, 0);
+            this.dgvpaciente.Name = "dgvpaciente";
+            this.dgvpaciente.Size = new System.Drawing.Size(543, 154);
+            this.dgvpaciente.STabla = "paciente";
+            this.dgvpaciente.TabIndex = 0;
+            this.dgvpaciente.sdgv_CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.cuDataGridD3_sdgv_CellClick);
             // 
             // wfCitaMedica
             // 
@@ -334,7 +334,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.HotTrack;
             this.ClientSize = new System.Drawing.Size(643, 414);
-            this.Controls.Add(this.tabControl1);
+            this.Controls.Add(this.tbccitamedica);
             this.Controls.Add(this.dtpFechaCita);
             this.Controls.Add(this.cboEstado);
             this.Controls.Add(this.txtEstado);
@@ -360,13 +360,13 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cita Medica";
             this.Load += new System.EventHandler(this.wfCitaMedica_Load);
-            this.tabControl1.ResumeLayout(false);
-            this.tabPage1.ResumeLayout(false);
-            this.tabPage1.PerformLayout();
-            this.tabPage2.ResumeLayout(false);
-            this.tabPage2.PerformLayout();
-            this.tabPage3.ResumeLayout(false);
-            this.tabPage3.PerformLayout();
+            this.tbccitamedica.ResumeLayout(false);
+            this.tbpusuario.ResumeLayout(false);
+            this.tbpusuario.PerformLayout();
+            this.tbpmedico.ResumeLayout(false);
+            this.tbpmedico.PerformLayout();
+            this.tbppaciente.ResumeLayout(false);
+            this.tbppaciente.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -391,12 +391,12 @@
         private System.Windows.Forms.TextBox txtEstado;
         private System.Windows.Forms.ComboBox cboEstado;
         private System.Windows.Forms.DateTimePicker dtpFechaCita;
-        private System.Windows.Forms.TabControl tabControl1;
-        private System.Windows.Forms.TabPage tabPage1;
-        private System.Windows.Forms.TabPage tabPage2;
-        private System.Windows.Forms.TabPage tabPage3;
-        private dll_bitacora.Presentacion.cuDataGridD cuDataGridD1;
-        private dll_bitacora.Presentacion.cuDataGridD cuDataGridD2;
-        private dll_bitacora.Presentacion.cuDataGridD cuDataGridD3;
+        private System.Windows.Forms.TabControl tbccitamedica;
+        private System.Windows.Forms.TabPage tbpusuario;
+        private System.Windows.Forms.TabPage tbpmedico;
+        private System.Windows.Forms.TabPage tbppaciente;
+        private dll_bitacora.Presentacion.cuDataGridD dgvusuario;
+        private dll_bitacora.Presentacion.cuDataGridD dgvmedico;
+        private dll_bitacora.Presentacion.cuDataGridD dgvpaciente;
     }
 }

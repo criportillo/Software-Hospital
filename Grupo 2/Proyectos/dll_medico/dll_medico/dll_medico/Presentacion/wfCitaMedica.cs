@@ -39,8 +39,8 @@ namespace dll_medico.Presentacion
                                 {"fecha_de_modificacion","Fechamodificacion","false"},
                                 {"estado","Estado","true"},
                                 };
-            cuDataGridD1.AlDatosEntrada.Add(Scadena);
-            cuDataGridD1.vinicializar();
+            dgvusuario.AlDatosEntrada.Add(Scadena);
+            dgvusuario.vinicializar();
 
             //////////////////////////////////////
             ////////// Datos Grid Medico
@@ -52,8 +52,8 @@ namespace dll_medico.Presentacion
                                     {"fecha_ingreso","Fecha","true"},
                                     {"estado","Estado","false"},
                                 };
-            cuDataGridD2.AlDatosEntrada.Add(ScadenaMedico);
-            cuDataGridD2.vinicializar();
+            dgvmedico.AlDatosEntrada.Add(ScadenaMedico);
+            dgvmedico.vinicializar();
 
             ///////////////////////////////////
             ///////// Datos Grid Pacientes
@@ -71,8 +71,8 @@ namespace dll_medico.Presentacion
                                              {"estado","Estado","true"},
 
                                          };
-            cuDataGridD3.AlDatosEntrada.Add(ScadenaPacientes);
-            cuDataGridD3.vinicializar();
+            dgvpaciente.AlDatosEntrada.Add(ScadenaPacientes);
+            dgvpaciente.vinicializar();
 
         }
 
@@ -135,17 +135,17 @@ namespace dll_medico.Presentacion
 
         private void cuDataGridD1_sdgv_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            txtIdUsuario.Text = cuDataGridD1.SObtenerDato;
+            txtIdUsuario.Text = dgvusuario.SObtenerDato;
         }
 
         private void cuDataGridD2_sdgv_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            txtIdMedico.Text = cuDataGridD2.SObtenerDato;
+            txtIdMedico.Text = dgvmedico.SObtenerDato;
         }
 
         private void cuDataGridD3_sdgv_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            txtIdPacientes.Text = cuDataGridD3.SObtenerDato;
+            txtIdPacientes.Text = dgvpaciente.SObtenerDato;
         }
 
         private void navegador1_btnNuevo_BeforeClick(object sender, EventArgs e)

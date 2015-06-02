@@ -33,7 +33,7 @@ namespace dll_medico.Presentacion
                                              {"estado","Estado","true"},
 
                                          };
-            cuDataGridD1.AlDatosEntrada.Add(ScadenaPacientes);
+            dgvpaciente.AlDatosEntrada.Add(ScadenaPacientes);
 
             String[,] ScadenaTipoExamen ={
                                              {"id_tipo_examen","Codigo","true"},
@@ -44,7 +44,7 @@ namespace dll_medico.Presentacion
                                              {"estado","Estado","false"},
 
                                            };
-            cuDataGridD2.AlDatosEntrada.Add(ScadenaTipoExamen);
+            dgvtipoexamen.AlDatosEntrada.Add(ScadenaTipoExamen);
 
             String[,] ScadenaMedico = {
                                     {"id_medico","Codigo","true"},
@@ -54,7 +54,7 @@ namespace dll_medico.Presentacion
                                     {"fecha_ingreso","Fecha","true"},
                                     {"estado","Estado","false"},
                                 };
-            cuDataGridD3.AlDatosEntrada.Add(ScadenaMedico);
+            dgvmedico.AlDatosEntrada.Add(ScadenaMedico);
         }
 
         private void wfDetalleExamen_Load(object sender, EventArgs e)
@@ -71,32 +71,32 @@ namespace dll_medico.Presentacion
             ///////// Datos Grid Pacientes
 
             
-            cuDataGridD1.vinicializar();
+            dgvpaciente.vinicializar();
 
             ////////////////////////////////////
             //////////////Datos Grid Tipo Examen 
             
-            cuDataGridD2.vinicializar();
+            dgvtipoexamen.vinicializar();
 
             //////////////////////////////////////
             ////////// Datos Grid Medico
             
-            cuDataGridD3.vinicializar();
+            dgvmedico.vinicializar();
         }
 
         private void cuDataGridD1_sdgv_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            txtIdPacientes.Text = cuDataGridD1.SObtenerDato;
+            txtIdPacientes.Text = dgvpaciente.SObtenerDato;
         }
 
         private void cuDataGridD2_sdgv_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            txtIdTipoExamen.Text = cuDataGridD2.SObtenerDato;
+            txtIdTipoExamen.Text = dgvtipoexamen.SObtenerDato;
         }
 
         private void cuDataGridD3_sdgv_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            txtIdMedico.Text = cuDataGridD3.SObtenerDato;
+            txtIdMedico.Text = dgvmedico.SObtenerDato;
         }
 
         private void navegador1_btnNuevo_AfterClick(object sender, EventArgs e)
